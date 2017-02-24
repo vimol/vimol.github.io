@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <style>
+    table.head, table.foot { width: 100%; }
+    td.head-rtitle, td.foot-os { text-align: right; }
+    td.head-vol { text-align: center; }
+    div.Pp { margin: 1ex 0ex; }
+  </style>
+  <link rel="stylesheet" href="mandoc.css" type="text/css" media="all"/>
+  <title>VIMOL(1)</title>
+</head>
+<body>
+<table class="head">
+  <tbody>
+    <tr>
+      <td class="head-ltitle">VIMOL(1)</td>
+      <td class="head-vol">General Commands Manual</td>
+      <td class="head-rtitle">VIMOL(1)</td>
+    </tr>
+  </tbody>
+</table>
+<div class="manual-text">
+<h1 class="Sh" id="NAME">NAME</h1>
+<b class="Nm">vimol</b> &#8212; <span class="Nd">a powerful molecular viewer and
+  editor with vi-like controls.</span>
+<h1 class="Sh" id="SYNOPSIS">SYNOPSIS</h1>
+<table class="Nm">
+  <col style="width: 5.00ex;"/>
+  <col/>
+  <tbody>
+    <tr>
+      <td><b class="Nm">vimol</b></td>
+      <td>[<span class="Op"><i class="Ar">files</i></span>]</td>
+    </tr>
+  </tbody>
+</table>
+<h1 class="Sh" id="DESCRIPTION">DESCRIPTION</h1>
+<b class="Nm">vimol</b> is a powerful molecular viewer and editor with vi-like
+  controls. It supports viewing and editing of PDB and XYZ files. Multiple files
+  can be edited simultaneously with convenient navigation between open tabs.
+  Multi-frame file support is implemented for both PDB and XYZ formats.
+<h1 class="Sh" id="KEY_BINDINGS">KEY BINDINGS</h1>
+The default key bindings are described below. The following notation is used
+  throughout:
+<div class="Pp"></div>
+<div class="Bl-tag" style="margin-left: 6.00ex;">
+<dl class="Bl-tag" style="margin-left: 6.00ex;">
+  <dt class="It-tag" style="margin-left: -6.00ex;">S-</dt>
+  <dd class="It-tag">Shift key.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">C-</dt>
+  <dd class="It-tag">Ctrl key.</dd>
+</dl>
+</div>
+<div class="Pp"></div>
+Arrow keys are equivalent to [hjkl] keys. An optional atom selection, (sel), can
+  be used with some commands. See the
+  <a class="Sx" href="#SELECTIONS">SELECTIONS</a> section for more details.
+<div class="Pp"></div>
+<div class="Bl-tag" style="margin-left: 6.00ex;">
+<dl class="Bl-tag" style="margin-left: 10.00ex;">
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)a</dt>
+  <dd class="It-tag">Fill unsatisfied valencies of selected atoms with hydrogen
+      atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">S-a</dt>
+  <dd class="It-tag">Select all hydrogen atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)b</dt>
+  <dd class="It-tag">Toggle a bond between two selected atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)c</dt>
+  <dd class="It-tag">Center selection in a window.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)S-c</dt>
+  <dd class="It-tag">Center and fit selection to a window.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)d or (sel)Delete</dt>
+  <dd class="It-tag">Delete selected atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">e</dt>
+  <dd class="It-tag">Clear selection.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">[fg]</dt>
+  <dd class="It-tag">Zoom in/out.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">S-[fg]</dt>
+  <dd class="It-tag">Rotate the camera along the view axis.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">[hjkl]</dt>
+  <dd class="It-tag">Rotate the camera.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">S-[hjkl]</dt>
+  <dd class="It-tag">Move the camera.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">i</dt>
+  <dd class="It-tag">Toggle display of atom indices.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">S-i</dt>
+  <dd class="It-tag">Toggle display of atom names.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)m</dt>
+  <dd class="It-tag">Measure position, distance, angle, or torsion depending on
+      the number of selected atoms. For example, 123m displays the position of
+      an atom with index 123.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)n</dt>
+  <dd class="It-tag">Select all atoms which are within the 4 angstrom radius of
+      atoms in the current selection.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">o</dt>
+  <dd class="It-tag">Toggle display of the coordinate system origin and
+    axes.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)S-o</dt>
+  <dd class="It-tag">Move selection to the coordinate system origin.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">p or C-v</dt>
+  <dd class="It-tag">Paste atoms to the current tab.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">q</dt>
+  <dd class="It-tag">Quit <b class="Nm">vimol</b>.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">S-q</dt>
+  <dd class="It-tag">Quit <b class="Nm">vimol</b> discarding unsaved
+    changes.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">r</dt>
+  <dd class="It-tag">Start recording of issued commands. Recordings can be
+      replayed by pressing t.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">123s</dt>
+  <dd class="It-tag">Select atom with index 123. Select an unselected atom with
+      lowest index if no index is specified.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">t</dt>
+  <dd class="It-tag">Replay last recording. Period key '.' with count can be
+      used to repeat many times after that.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">123u</dt>
+  <dd class="It-tag">Unselect atom with index 123. Unselect last selected atom
+      if no index is specified.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)v</dt>
+  <dd class="It-tag">Hide selected atoms. Atoms can be made visible again by
+      pressing z.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)w</dt>
+  <dd class="It-tag">Select whole molecules containing selected atoms. 123w
+      selects the molecule to which atom 123 belongs.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">S-w</dt>
+  <dd class="It-tag">Select all water molecules.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)x or (sel)C-x</dt>
+  <dd class="It-tag">Cut (copy and delete) selected atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)y or (sel)C-c</dt>
+  <dd class="It-tag">Copy selected atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">z</dt>
+  <dd class="It-tag">Show all hidden atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">C-a</dt>
+  <dd class="It-tag">Select all atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">C-[hjklfg]</dt>
+  <dd class="It-tag">Rotate selected atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">CS-[hjkl]</dt>
+  <dd class="It-tag">Move selected atoms.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">C-r</dt>
+  <dd class="It-tag">Redo last change.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">C-z</dt>
+  <dd class="It-tag">Undo last change.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">123.</dt>
+  <dd class="It-tag">Repeat last command 123 times.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">=</dt>
+  <dd class="It-tag">Invert current selection.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">Space</dt>
+  <dd class="It-tag">Toggle full screen mode.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">`</dt>
+  <dd class="It-tag">Reset the view.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">[</dt>
+  <dd class="It-tag">Go to the previous frame.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">]</dt>
+  <dd class="It-tag">Go to the next frame.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">{</dt>
+  <dd class="It-tag">Go 100 frames backward.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">}</dt>
+  <dd class="It-tag">Go 100 frames forward.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">&lt;</dt>
+  <dd class="It-tag">Switch to the previous tab.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">&gt;</dt>
+  <dd class="It-tag">Switch to the next tab.</dd>
+</dl>
+</div>
+<h1 class="Sh" id="SELECTIONS">SELECTIONS</h1>
+An atom selection, <i class="Ar">sel</i>, can be specified in various ways.
+<div class="Pp"></div>
+First, an explicit atom index can be provided using number keys [0-9]. This is
+  useful with key combinations. For example, 123d deletes an atom with index
+  123.
+<div class="Pp"></div>
+Atom indices can be explicitly listed on the command line (see the
+  <a class="Sx" href="#COMMANDS">COMMANDS</a> section). The indices are
+  separated by a space character. Index ranges can be specified using colon ':'.
+  For example, 6:8 specifies atoms with indices 6, 7, 8. Negative indices are
+  used to count backwards starting from the last index, i.e., -1 is the last
+  atom. An asterisk '*' can be used to specify all atoms.
+<div class="Pp"></div>
+Finally, if no explicit index is specified and no command-line arguments are
+  listed, selected atoms from the current tab are used.
+<h1 class="Sh" id="COMMANDS">COMMANDS</h1>
+Below is the list of available commands. Command mode is started by pressing the
+  colon key ':'. Most of the commands are bound to a key for convenience (see
+  the <a class="Sx" href="#KEY_BINDINGS">KEY BINDINGS</a> section). Multiple
+  commands can be separated by semicolon.
+<div class="Bl-tag" style="margin-left: 6.00ex;">
+<dl class="Bl-tag" style="margin-left: 6.00ex;">
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">about</b></dt>
+  <dd class="It-tag">Display information about <b class="Nm">vimol</b>.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">add-hydrogens</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Fill unsatisfied valencies of atoms in selection
+      <i class="Ar">sel</i> with hydrogen atoms.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">atom</b>
+    [<span class="Op"><i class="Ar">element</i>
+    [<span class="Op"><i class="Ar">x y z</i></span>]</span>]</dt>
+  <dd class="It-tag">Create an atom with coordinates <i class="Ar">x y z</i>.
+      The default is to create a carbon atom at coordinate origin.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">bind</b>
+    <i class="Ar">key</i>
+    [<span class="Op"><i class="Ar">command</i></span>]</dt>
+  <dd class="It-tag">Bind key to command. Display current binding if
+      <i class="Ar">command</i> is not specified.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">bond</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Toggle a bond between two atoms. The selection
+      <i class="Ar">sel</i> must contain exactly two atoms.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">chain</b>
+    [<span class="Op"><i class="Ar">n</i></span>]</dt>
+  <dd class="It-tag">Create a carbon chain of length <i class="Ar">n</i>. The
+      default <i class="Ar">n</i> is 4.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">clo[se]</b></dt>
+  <dd class="It-tag">Close current tab.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">clo[se]!</b></dt>
+  <dd class="It-tag">Close current tab discarding unsaved changes.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">copy</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Copy atoms from selection <i class="Ar">sel</i> to a
+      copy-buffer.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">delete</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Delete atoms in selection <i class="Ar">sel</i>.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">first-tab</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">first</b>)</div>
+    Switch to the first tab.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">frame</b>
+    [<span class="Op"><i class="Ar">n</i></span>]</dt>
+  <dd class="It-tag">Go to a specific frame <i class="Ar">n</i>. Count from the
+      end if <i class="Ar">n</i> is negative, i.e., -1 is the last frame.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">fullscreen</b></dt>
+  <dd class="It-tag">Toggle full screen mode.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">hide-selection</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Hide atoms specified by <i class="Ar">sel</i>.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">invert-selection</b></dt>
+  <dd class="It-tag">Invert current selection.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">last-tab</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">last</b>)</div>
+    Switch to the last tab.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">measure</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Measure position, distance, angle, or torsion depending on
+      the number of atoms in selection.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">move-selection</b>
+    <i class="Ar">x y z</i> [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Move selection by the specified amount. The displacement
+      <i class="Ar">x y z</i> is relative to the camera coordinate system.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">move-selection-to</b>
+    <i class="Ar">x y z</i> [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Move selection center to the coordinates <i class="Ar">x y
+      z</i>.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">next-frame</b>
+    [<span class="Op"><i class="Ar">n</i></span>]</dt>
+  <dd class="It-tag">Switch to the next frame. Number of frames to advance,
+      <i class="Ar">n</i>, can optionally be specified. It can be negative.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">next-tab</b></dt>
+  <dd class="It-tag">Switch to the next tab.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">open</b>
+    [<span class="Op"><i class="Ar">path</i></span>]</dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">new</b>)</div>
+    Open file in a new tab.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">paste</b></dt>
+  <dd class="It-tag">Paste atoms from a copy-buffer to the current tab.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">prev-tab</b></dt>
+  <dd class="It-tag">Switch to the previous tab.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">quit</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">q</b>)</div>
+    Quit <b class="Nm">vimol</b>.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">quit!</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">q!</b>)</div>
+    Quit <b class="Nm">vimol</b> discarding unsaved changes.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">record</b></dt>
+  <dd class="It-tag">Start recording of issued commands. A recording can be
+      replayed using <b class="Ic">replay</b> command.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">redo</b></dt>
+  <dd class="It-tag">Redo last change.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">rename</b>
+    <i class="Ar">name</i> [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Set a new name for all atoms in selection.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">replay</b></dt>
+  <dd class="It-tag">Replay last recording.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">reset-bonds</b></dt>
+  <dd class="It-tag">Reset all bonds.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">ring</b>
+    [<span class="Op"><i class="Ar">n</i></span>]</dt>
+  <dd class="It-tag">Create a carbon ring of size <i class="Ar">n</i>. The
+      default <i class="Ar">n</i> is 6.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">rotate-selection</b>
+    <i class="Ar">a b c</i> [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Rotate selected atoms. Rotation angles relative to the
+      camera coordinate system are specified by <i class="Ar">a b c</i>.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">s</b>)</div>
+    Add atoms specified by <i class="Ar">sel</i> to the current selection.
+      Select an unselected atom with lowest index if the argument is
+    omitted.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-element</b>
+    <i class="Ar">name ...</i></dt>
+  <dd class="It-tag">Select all atoms of a particular type. This command takes a
+      list of element names. Atoms of those types will be added to the current
+      selection. For example,
+    <div class="Pp"></div>
+    <div class="Bd" style="margin-left: 5.00ex;">
+    <pre class="Li">
+select-element H N
+    </pre>
+    </div>
+    selects all hydrogen and nitrogen atoms.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-molecule</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">For each atom in selection <i class="Ar">sel</i>, select
+      the whole molecule containing the atom.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-within</b>
+    <i class="Ar">radius</i>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Select all atoms which are within a specified
+      <i class="Ar">radius</i> of atoms in the selection
+    <i class="Ar">sel</i>.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-water</b></dt>
+  <dd class="It-tag">Select all water molecules.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-x</b>
+    [<span class="Op"><i class="Ar">x</i></span>]</dt>
+  <dd class="It-tag">Select atoms with x coordinate grater than
+      <i class="Ar">x</i>. Invert selection to get the complementary set of
+      atoms. This is useful for making solvation boxes. The default
+      <i class="Ar">x</i> is 0.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-y</b>
+    [<span class="Op"><i class="Ar">y</i></span>]</dt>
+  <dd class="It-tag">Select atoms with y coordinate grater than
+      <i class="Ar">y</i>. Invert selection to get the complementary set of
+      atoms. This is useful for making solvation boxes. The default
+      <i class="Ar">y</i> is 0.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-z</b>
+    [<span class="Op"><i class="Ar">z</i></span>]</dt>
+  <dd class="It-tag">Select atoms with z coordinate grater than
+      <i class="Ar">z</i>. Invert selection to get the complementary set of
+      atoms. This is useful for making solvation boxes. The default
+      <i class="Ar">z</i> is 0.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">set</b>
+    <i class="Ar">setting</i>
+    [<span class="Op"><i class="Ar">value</i></span>]</dt>
+  <dd class="It-tag">Set the <i class="Ar">setting</i> to a new value. Current
+      value is displayed if the second argument is omitted. See the
+      <a class="Sx" href="#SETTINGS">SETTINGS</a> section for the list of
+      available options.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">show-all</b></dt>
+  <dd class="It-tag">Show all hidden atoms.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">source</b>
+    <i class="Ar">path</i></dt>
+  <dd class="It-tag">Execute commands from a file.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">toggle</b>
+    <i class="Ar">setting</i></dt>
+  <dd class="It-tag">Toggle a boolean setting. See the
+      <a class="Sx" href="#SETTINGS">SETTINGS</a> section for the list of
+      available options.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">undo</b></dt>
+  <dd class="It-tag">Undo last change.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">unselect</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">u</b>)</div>
+    Remove atoms specified by <i class="Ar">sel</i> from the current selection.
+      Unselect last selected atom if the argument is omitted.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">view-center-selection</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Center selection in a window.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">view-fit-selection</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Center and fit selection to a window.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">view-move</b>
+    <i class="Ar">x y z</i></dt>
+  <dd class="It-tag">Move the camera. Arguments <i class="Ar">x y z</i> specify
+      a displacement.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">view-reset</b></dt>
+  <dd class="It-tag">Reset the view.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">view-rotate</b>
+    <i class="Ar">a b c</i></dt>
+  <dd class="It-tag">Rotate the camera. Arguments <i class="Ar">a b c</i>
+      specify rotation angles.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">view-zoom</b>
+    <i class="Ar">factor</i></dt>
+  <dd class="It-tag">Change zoom. <i class="Ar">factor</i> should be a number
+      close to 1.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">write</b>
+    [<span class="Op"><i class="Ar">path</i></span>]</dt>
+  <dd class="It-tag">
+    <div class="D1">(alias: <b class="Ic">w</b>)</div>
+    Write changes to a file. Save to the current file if <i class="Ar">path</i>
+      is not specified.</dd>
+</dl>
+</div>
+<h1 class="Sh" id="SETTINGS">SETTINGS</h1>
+The following settings control various aspects of <b class="Nm">vimol</b>. They
+  can be changed using the <b class="Ic">set</b> command. Boolean settings can
+  be switched on/off using the <b class="Ic">toggle</b> command. Colors are
+  specified using an RGB value. For example, red is 255 0 0.
+<div class="Pp"></div>
+<div class="Bl-tag" style="margin-left: 6.00ex;">
+<dl class="Bl-tag" style="margin-left: 6.00ex;">
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">atom-size</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Atom size used for drawing.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">atom-visible</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">boolean</b>)</div>
+    Specifies whether to draw the atoms.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">bg-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Background color.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">bond-size</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Bond size used for drawing.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">bond-visible</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">boolean</b>)</div>
+    Specifies whether to draw the bonds.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">id-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Color of atom index labels.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">id-font</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">string</b>)</div>
+    Atom index label font.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">id-font-size</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Atom index label font size.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">id-visible</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">boolean</b>)</div>
+    Atom index label visibility.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">name-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Color of atom name labels.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">name-font</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">string</b>)</div>
+    Atom name label font.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">name-font-size</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Atom name label font size.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">name-visible</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">boolean</b>)</div>
+    Atom name label visibility.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">origin-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Color of coordinate system axes and labels.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">origin-font</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">string</b>)</div>
+    Coordinate system axis labels font.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">origin-font-size</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Coordinate system axis labels font size.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">origin-line-width</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Coordinate system axis line width.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">origin-visible</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">boolean</b>)</div>
+    Specifies whether to draw coordinate system axes and labels.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">selection-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Color of atom selection markers.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">selection-size</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Size of atom selection markers.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">statusbar-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Status bar background color.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">statusbar-error-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Status bar error text color.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">statusbar-font</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">string</b>)</div>
+    Status bar text font.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">statusbar-font-size</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">float</b>)</div>
+    Status bar font size.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">statusbar-text-color</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Status bar text color.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">statusbar-visible</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">boolean</b>)</div>
+    Status bar visibility.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">color-x</b></dt>
+  <dd class="It-tag">
+    <div class="D1">(type: <b class="Ic">color</b>)</div>
+    Color of an unknown element. Colors of common elements can be specified
+      using <b class="Ic">color-h</b>, <b class="Ic">color-he</b>,
+      <b class="Ic">color-li</b>, and so on.</dd>
+</dl>
+</div>
+<h1 class="Sh" id="AUTHORS">AUTHORS</h1>
+<b class="Nm">vimol</b> was developed by <span class="An">Ilya
+  Kaliman</span></div>
+<table class="foot">
+  <tbody>
+    <tr>
+      <td class="foot-date">February 21, 2017</td>
+      <td class="foot-os">OpenBSD 6.0</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
