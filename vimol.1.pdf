@@ -498,244 +498,269 @@ ET
 BT
 /F0 11 Tf
 267.806 441.221 Td
-(An) Tj
+(Most) Tj
 ET
 BT
 /F0 11 Tf
-283.998 441.221 Td
-(optional) Tj
+293.172 441.221 Td
+(commands) Tj
 ET
 BT
 /F0 11 Tf
-322.806 441.221 Td
+343.585 441.221 Td
+(operate) Tj
+ET
+BT
+/F0 11 Tf
+378.708 441.221 Td
+(on) Tj
+ET
+BT
+/F0 11 Tf
+392.458 441.221 Td
+(an) Tj
+ET
+BT
+/F0 11 Tf
+405.592 441.221 Td
 (atom) Tj
 ET
 BT
 /F0 11 Tf
-347.556 441.221 Td
+430.342 441.221 Td
 (selection,) Tj
 ET
 BT
 /F0 11 Tf
-392.161 441.221 Td
-(\(sel\),) Tj
+474.947 441.221 Td
+(\(sel\).) Tj
 ET
 BT
 /F0 11 Tf
-417.208 441.221 Td
-(can) Tj
-ET
-BT
-/F0 11 Tf
-435.226 441.221 Td
-(be) Tj
-ET
-BT
-/F0 11 Tf
-448.360 441.221 Td
-(used) Tj
-ET
-BT
-/F0 11 Tf
-471.273 441.221 Td
-(with) Tj
-ET
-BT
-/F0 11 Tf
-493.581 441.221 Td
-(some) Tj
+502.744 441.221 Td
+(An) Tj
 ET
 BT
 /F0 11 Tf
 81.763 425.832 Td
+(explicit) Tj
+ET
+BT
+/F0 11 Tf
+117.513 425.832 Td
+(atom) Tj
+ET
+BT
+/F0 11 Tf
+142.263 425.832 Td
+(index) Tj
+ET
+BT
+/F0 11 Tf
+169.455 425.832 Td
+(can) Tj
+ET
+BT
+/F0 11 Tf
+187.473 425.832 Td
+(be) Tj
+ET
+BT
+/F0 11 Tf
+200.607 425.832 Td
+(specified) Tj
+ET
+BT
+/F0 11 Tf
+243.067 425.832 Td
+(with) Tj
+ET
+BT
+/F0 11 Tf
+265.375 425.832 Td
+(number) Tj
+ET
+BT
+/F0 11 Tf
+301.730 425.832 Td
+(keys) Tj
+ET
+BT
+/F0 11 Tf
+324.643 425.832 Td
+([0-9]) Tj
+ET
+BT
+/F0 11 Tf
+349.382 425.832 Td
+(for) Tj
+ET
+BT
+/F0 11 Tf
+364.958 425.832 Td
+(such) Tj
+ET
+BT
+/F0 11 Tf
+387.871 425.832 Td
 (commands.) Tj
 ET
 BT
 /F0 11 Tf
-137.676 425.832 Td
+443.784 425.832 Td
 (See) Tj
 ET
 BT
 /F0 11 Tf
-156.310 425.832 Td
+462.418 425.832 Td
 (the) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-172.502 425.832 Td
+81.763 410.443 Td
 (SELECTIONS) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-238.205 425.832 Td
+147.466 410.443 Td
 (section) Tj
 ET
 BT
 /F0 11 Tf
-272.118 425.832 Td
+181.379 410.443 Td
 (for) Tj
 ET
 BT
 /F0 11 Tf
-287.694 425.832 Td
+196.955 410.443 Td
 (more) Tj
 ET
 BT
 /F0 11 Tf
-313.049 425.832 Td
+222.310 410.443 Td
 (details.) Tj
 ET
 BT
 /F0 11 Tf
-109.263 395.054 Td
+109.263 379.665 Td
 (\(sel\)a) Tj
 ET
 BT
 /F0 11 Tf
-162.426 395.054 Td
+162.426 379.665 Td
 (Fill) Tj
 ET
 BT
 /F0 11 Tf
-180.466 395.054 Td
+180.466 379.665 Td
 (unsatisfied) Tj
 ET
 BT
 /F0 11 Tf
-230.879 395.054 Td
+230.879 379.665 Td
 (valencies) Tj
 ET
 BT
 /F0 11 Tf
-274.560 395.054 Td
+274.560 379.665 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-286.473 395.054 Td
+286.473 379.665 Td
 (selected) Tj
 ET
 BT
 /F0 11 Tf
-324.654 395.054 Td
+324.654 379.665 Td
 (atoms) Tj
 ET
 BT
 /F0 11 Tf
-353.683 395.054 Td
+353.683 379.665 Td
 (with) Tj
 ET
 BT
 /F0 11 Tf
-375.991 395.054 Td
+375.991 379.665 Td
 (hydrogen) Tj
 ET
 BT
 /F0 11 Tf
-420.288 395.054 Td
-(atoms.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 379.665 Td
-(S-a) Tj
-ET
-BT
-/F0 11 Tf
-162.426 379.665 Td
-(Select) Tj
-ET
-BT
-/F0 11 Tf
-192.060 379.665 Td
-(all) Tj
-ET
-BT
-/F0 11 Tf
-205.810 379.665 Td
-(hydrogen) Tj
-ET
-BT
-/F0 11 Tf
-250.107 379.665 Td
+420.288 379.665 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 364.276 Td
-(\(sel\)b) Tj
+(S-a) Tj
 ET
 BT
 /F0 11 Tf
 162.426 364.276 Td
-(Toggle) Tj
+(Select) Tj
 ET
 BT
 /F0 11 Tf
-196.339 364.276 Td
-(a) Tj
+192.060 364.276 Td
+(all) Tj
 ET
 BT
 /F0 11 Tf
-203.973 364.276 Td
-(bond) Tj
+205.810 364.276 Td
+(hydrogen) Tj
 ET
 BT
 /F0 11 Tf
-228.723 364.276 Td
-(between) Tj
-ET
-BT
-/F0 11 Tf
-268.125 364.276 Td
-(two) Tj
-ET
-BT
-/F0 11 Tf
-287.375 364.276 Td
-(selected) Tj
-ET
-BT
-/F0 11 Tf
-325.556 364.276 Td
+250.107 364.276 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 348.887 Td
-(\(sel\)c) Tj
+(\(sel\)b) Tj
 ET
 BT
 /F0 11 Tf
 162.426 348.887 Td
-(Center) Tj
+(Toggle) Tj
 ET
 BT
 /F0 11 Tf
-194.502 348.887 Td
-(selection) Tj
-ET
-BT
-/F0 11 Tf
-236.357 348.887 Td
-(in) Tj
-ET
-BT
-/F0 11 Tf
-247.665 348.887 Td
+196.339 348.887 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-255.299 348.887 Td
-(window.) Tj
+203.973 348.887 Td
+(bond) Tj
+ET
+BT
+/F0 11 Tf
+228.723 348.887 Td
+(between) Tj
+ET
+BT
+/F0 11 Tf
+268.125 348.887 Td
+(two) Tj
+ET
+BT
+/F0 11 Tf
+287.375 348.887 Td
+(selected) Tj
+ET
+BT
+/F0 11 Tf
+325.556 348.887 Td
+(atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 333.498 Td
-(\(sel\)S-c) Tj
+(\(sel\)c) Tj
 ET
 BT
 /F0 11 Tf
@@ -745,137 +770,127 @@ ET
 BT
 /F0 11 Tf
 194.502 333.498 Td
-(and) Tj
-ET
-BT
-/F0 11 Tf
-213.136 333.498 Td
-(fit) Tj
-ET
-BT
-/F0 11 Tf
-225.665 333.498 Td
 (selection) Tj
 ET
 BT
 /F0 11 Tf
-267.520 333.498 Td
-(to) Tj
+236.357 333.498 Td
+(in) Tj
 ET
 BT
 /F0 11 Tf
-278.828 333.498 Td
+247.665 333.498 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-286.462 333.498 Td
+255.299 333.498 Td
 (window.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 318.109 Td
+(\(sel\)S-c) Tj
+ET
+BT
+/F0 11 Tf
+162.426 318.109 Td
+(Center) Tj
+ET
+BT
+/F0 11 Tf
+194.502 318.109 Td
+(and) Tj
+ET
+BT
+/F0 11 Tf
+213.136 318.109 Td
+(fit) Tj
+ET
+BT
+/F0 11 Tf
+225.665 318.109 Td
+(selection) Tj
+ET
+BT
+/F0 11 Tf
+267.520 318.109 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+278.828 318.109 Td
+(a) Tj
+ET
+BT
+/F0 11 Tf
+286.462 318.109 Td
+(window.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 302.720 Td
 (\(sel\)d) Tj
 ET
 BT
 /F0 11 Tf
-137.060 318.109 Td
+137.060 302.720 Td
 (or) Tj
 ET
 BT
 /F0 11 Tf
-148.973 318.109 Td
+148.973 302.720 Td
 (\(sel\)Delete) Tj
 ET
 BT
 /F0 11 Tf
-162.426 302.720 Td
+162.426 287.331 Td
 (Delete) Tj
 ET
 BT
 /F0 11 Tf
-193.886 302.720 Td
+193.886 287.331 Td
 (selected) Tj
 ET
 BT
 /F0 11 Tf
-232.067 302.720 Td
+232.067 287.331 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
-109.263 287.331 Td
+109.263 271.942 Td
 (e) Tj
 ET
 BT
 /F0 11 Tf
-162.426 287.331 Td
+162.426 271.942 Td
 (Clear) Tj
 ET
 BT
 /F0 11 Tf
-189.002 287.331 Td
+189.002 271.942 Td
 (selection.) Tj
 ET
 BT
 /F0 11 Tf
-109.263 271.942 Td
+109.263 256.553 Td
 ([fg]) Tj
 ET
 BT
 /F0 11 Tf
-162.426 271.942 Td
+162.426 256.553 Td
 (Zoom) Tj
 ET
 BT
 /F0 11 Tf
-191.455 271.942 Td
+191.455 256.553 Td
 (in/out.) Tj
 ET
 BT
 /F0 11 Tf
-109.263 256.553 Td
-(S-[fg]) Tj
-ET
-BT
-/F0 11 Tf
-162.426 256.553 Td
-(Rotate) Tj
-ET
-BT
-/F0 11 Tf
-193.897 256.553 Td
-(the) Tj
-ET
-BT
-/F0 11 Tf
-210.089 256.553 Td
-(camera) Tj
-ET
-BT
-/F0 11 Tf
-244.596 256.553 Td
-(along) Tj
-ET
-BT
-/F0 11 Tf
-271.788 256.553 Td
-(the) Tj
-ET
-BT
-/F0 11 Tf
-287.980 256.553 Td
-(view) Tj
-ET
-BT
-/F0 11 Tf
-312.114 256.553 Td
-(axis.) Tj
-ET
-BT
-/F0 11 Tf
 109.263 241.164 Td
-([hjkl]) Tj
+(S-[fg]) Tj
 ET
 BT
 /F0 11 Tf
@@ -890,62 +905,72 @@ ET
 BT
 /F0 11 Tf
 210.089 241.164 Td
-(camera.) Tj
+(camera) Tj
 ET
 BT
 /F0 11 Tf
-109.263 225.775 Td
-(S-[hjkl]) Tj
+244.596 241.164 Td
+(along) Tj
 ET
 BT
 /F0 11 Tf
-162.426 225.775 Td
-(Move) Tj
-ET
-BT
-/F0 11 Tf
-190.839 225.775 Td
+271.788 241.164 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-207.031 225.775 Td
+287.980 241.164 Td
+(view) Tj
+ET
+BT
+/F0 11 Tf
+312.114 241.164 Td
+(axis.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 225.775 Td
+([hjkl]) Tj
+ET
+BT
+/F0 11 Tf
+162.426 225.775 Td
+(Rotate) Tj
+ET
+BT
+/F0 11 Tf
+193.897 225.775 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+210.089 225.775 Td
 (camera.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 210.386 Td
-(i) Tj
+(S-[hjkl]) Tj
 ET
 BT
 /F0 11 Tf
 162.426 210.386 Td
-(Toggle) Tj
+(Move) Tj
 ET
 BT
 /F0 11 Tf
-196.339 210.386 Td
-(display) Tj
+190.839 210.386 Td
+(the) Tj
 ET
 BT
 /F0 11 Tf
-230.868 210.386 Td
-(of) Tj
-ET
-BT
-/F0 11 Tf
-242.781 210.386 Td
-(atom) Tj
-ET
-BT
-/F0 11 Tf
-267.531 210.386 Td
-(indices.) Tj
+207.031 210.386 Td
+(camera.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 194.997 Td
-(S-i) Tj
+(i) Tj
 ET
 BT
 /F0 11 Tf
@@ -970,312 +995,302 @@ ET
 BT
 /F0 11 Tf
 267.531 194.997 Td
-(names.) Tj
+(indices.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 179.608 Td
-(\(sel\)m) Tj
+(S-i) Tj
 ET
 BT
 /F0 11 Tf
 162.426 179.608 Td
-(Measure) Tj
-ET
-BT
-/F0 11 Tf
-203.049 179.608 Td
-(position,) Tj
-ET
-BT
-/F0 11 Tf
-244.002 179.608 Td
-(distance,) Tj
-ET
-BT
-/F0 11 Tf
-285.549 179.608 Td
-(angle,) Tj
-ET
-BT
-/F0 11 Tf
-314.875 179.608 Td
-(or) Tj
-ET
-BT
-/F0 11 Tf
-326.788 179.608 Td
-(torsion) Tj
-ET
-BT
-/F0 11 Tf
-360.096 179.608 Td
-(depending) Tj
-ET
-BT
-/F0 11 Tf
-408.672 179.608 Td
-(on) Tj
-ET
-BT
-/F0 11 Tf
-422.422 179.608 Td
-(the) Tj
-ET
-BT
-/F0 11 Tf
-438.614 179.608 Td
-(number) Tj
-ET
-BT
-/F0 11 Tf
-474.969 179.608 Td
-(of) Tj
-ET
-BT
-/F0 11 Tf
-486.882 179.608 Td
-(selected) Tj
-ET
-BT
-/F0 11 Tf
-162.426 164.219 Td
-(atoms.) Tj
-ET
-BT
-/F0 11 Tf
-196.955 164.219 Td
-(For) Tj
-ET
-BT
-/F0 11 Tf
-214.984 164.219 Td
-(example,) Tj
-ET
-BT
-/F0 11 Tf
-257.752 164.219 Td
-(123m) Tj
-ET
-BT
-/F0 11 Tf
-285.560 164.219 Td
-(displays) Tj
-ET
-BT
-/F0 11 Tf
-324.368 164.219 Td
-(the) Tj
-ET
-BT
-/F0 11 Tf
-340.560 164.219 Td
-(position) Tj
-ET
-BT
-/F0 11 Tf
-378.763 164.219 Td
-(of) Tj
-ET
-BT
-/F0 11 Tf
-390.676 164.219 Td
-(an) Tj
-ET
-BT
-/F0 11 Tf
-403.810 164.219 Td
-(atom) Tj
-ET
-BT
-/F0 11 Tf
-428.560 164.219 Td
-(with) Tj
-ET
-BT
-/F0 11 Tf
-450.868 164.219 Td
-(index) Tj
-ET
-BT
-/F0 11 Tf
-478.060 164.219 Td
-(123.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 148.830 Td
-(\(sel\)n) Tj
-ET
-BT
-/F0 11 Tf
-162.426 148.830 Td
-(Select) Tj
-ET
-BT
-/F0 11 Tf
-192.060 148.830 Td
-(all) Tj
-ET
-BT
-/F0 11 Tf
-205.810 148.830 Td
-(atoms) Tj
-ET
-BT
-/F0 11 Tf
-234.839 148.830 Td
-(which) Tj
-ET
-BT
-/F0 11 Tf
-264.473 148.830 Td
-(are) Tj
-ET
-BT
-/F0 11 Tf
-280.654 148.830 Td
-(within) Tj
-ET
-BT
-/F0 11 Tf
-311.520 148.830 Td
-(the) Tj
-ET
-BT
-/F0 11 Tf
-327.712 148.830 Td
-(4) Tj
-ET
-BT
-/F0 11 Tf
-335.962 148.830 Td
-(angstrom) Tj
-ET
-BT
-/F0 11 Tf
-379.654 148.830 Td
-(radius) Tj
-ET
-BT
-/F0 11 Tf
-409.288 148.830 Td
-(of) Tj
-ET
-BT
-/F0 11 Tf
-421.201 148.830 Td
-(atoms) Tj
-ET
-BT
-/F0 11 Tf
-450.230 148.830 Td
-(in) Tj
-ET
-BT
-/F0 11 Tf
-461.538 148.830 Td
-(the) Tj
-ET
-BT
-/F0 11 Tf
-477.730 148.830 Td
-(current) Tj
-ET
-BT
-/F0 11 Tf
-162.426 133.441 Td
-(selection.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 118.052 Td
-(o) Tj
-ET
-BT
-/F0 11 Tf
-162.426 118.052 Td
 (Toggle) Tj
 ET
 BT
 /F0 11 Tf
-196.339 118.052 Td
+196.339 179.608 Td
 (display) Tj
 ET
 BT
 /F0 11 Tf
-230.868 118.052 Td
+230.868 179.608 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-242.781 118.052 Td
+242.781 179.608 Td
+(atom) Tj
+ET
+BT
+/F0 11 Tf
+267.531 179.608 Td
+(names.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 164.219 Td
+(\(sel\)m) Tj
+ET
+BT
+/F0 11 Tf
+162.426 164.219 Td
+(Measure) Tj
+ET
+BT
+/F0 11 Tf
+203.049 164.219 Td
+(position,) Tj
+ET
+BT
+/F0 11 Tf
+244.002 164.219 Td
+(distance,) Tj
+ET
+BT
+/F0 11 Tf
+285.549 164.219 Td
+(angle,) Tj
+ET
+BT
+/F0 11 Tf
+314.875 164.219 Td
+(or) Tj
+ET
+BT
+/F0 11 Tf
+326.788 164.219 Td
+(torsion) Tj
+ET
+BT
+/F0 11 Tf
+360.096 164.219 Td
+(depending) Tj
+ET
+BT
+/F0 11 Tf
+408.672 164.219 Td
+(on) Tj
+ET
+BT
+/F0 11 Tf
+422.422 164.219 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-258.973 118.052 Td
-(coordinate) Tj
+438.614 164.219 Td
+(number) Tj
 ET
 BT
 /F0 11 Tf
-308.154 118.052 Td
-(system) Tj
+474.969 164.219 Td
+(of) Tj
 ET
 BT
 /F0 11 Tf
-341.462 118.052 Td
-(origin) Tj
+486.882 164.219 Td
+(selected) Tj
 ET
 BT
 /F0 11 Tf
-370.491 118.052 Td
-(and) Tj
+162.426 148.830 Td
+(atoms.) Tj
 ET
 BT
 /F0 11 Tf
-389.125 118.052 Td
-(axes.) Tj
+196.955 148.830 Td
+(For) Tj
+ET
+BT
+/F0 11 Tf
+214.984 148.830 Td
+(example,) Tj
+ET
+BT
+/F0 11 Tf
+257.752 148.830 Td
+(123m) Tj
+ET
+BT
+/F0 11 Tf
+285.560 148.830 Td
+(displays) Tj
+ET
+BT
+/F0 11 Tf
+324.368 148.830 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+340.560 148.830 Td
+(position) Tj
+ET
+BT
+/F0 11 Tf
+378.763 148.830 Td
+(of) Tj
+ET
+BT
+/F0 11 Tf
+390.676 148.830 Td
+(an) Tj
+ET
+BT
+/F0 11 Tf
+403.810 148.830 Td
+(atom) Tj
+ET
+BT
+/F0 11 Tf
+428.560 148.830 Td
+(with) Tj
+ET
+BT
+/F0 11 Tf
+450.868 148.830 Td
+(index) Tj
+ET
+BT
+/F0 11 Tf
+478.060 148.830 Td
+(123.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 133.441 Td
+(\(sel\)n) Tj
+ET
+BT
+/F0 11 Tf
+162.426 133.441 Td
+(Select) Tj
+ET
+BT
+/F0 11 Tf
+192.060 133.441 Td
+(all) Tj
+ET
+BT
+/F0 11 Tf
+205.810 133.441 Td
+(atoms) Tj
+ET
+BT
+/F0 11 Tf
+234.839 133.441 Td
+(which) Tj
+ET
+BT
+/F0 11 Tf
+264.473 133.441 Td
+(are) Tj
+ET
+BT
+/F0 11 Tf
+280.654 133.441 Td
+(within) Tj
+ET
+BT
+/F0 11 Tf
+311.520 133.441 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+327.712 133.441 Td
+(4) Tj
+ET
+BT
+/F0 11 Tf
+335.962 133.441 Td
+(angstrom) Tj
+ET
+BT
+/F0 11 Tf
+379.654 133.441 Td
+(radius) Tj
+ET
+BT
+/F0 11 Tf
+409.288 133.441 Td
+(of) Tj
+ET
+BT
+/F0 11 Tf
+421.201 133.441 Td
+(atoms) Tj
+ET
+BT
+/F0 11 Tf
+450.230 133.441 Td
+(in) Tj
+ET
+BT
+/F0 11 Tf
+461.538 133.441 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+477.730 133.441 Td
+(current) Tj
+ET
+BT
+/F0 11 Tf
+162.426 118.052 Td
+(selection.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 102.663 Td
-(\(sel\)S-o) Tj
+(o) Tj
 ET
 BT
 /F0 11 Tf
 162.426 102.663 Td
-(Move) Tj
+(Toggle) Tj
 ET
 BT
 /F0 11 Tf
-190.839 102.663 Td
-(selection) Tj
+196.339 102.663 Td
+(display) Tj
 ET
 BT
 /F0 11 Tf
-232.694 102.663 Td
-(to) Tj
+230.868 102.663 Td
+(of) Tj
 ET
 BT
 /F0 11 Tf
-244.002 102.663 Td
+242.781 102.663 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-260.194 102.663 Td
+258.973 102.663 Td
 (coordinate) Tj
 ET
 BT
 /F0 11 Tf
-309.375 102.663 Td
+308.154 102.663 Td
 (system) Tj
 ET
 BT
 /F0 11 Tf
-342.683 102.663 Td
-(origin.) Tj
+341.462 102.663 Td
+(origin) Tj
+ET
+BT
+/F0 11 Tf
+370.491 102.663 Td
+(and) Tj
+ET
+BT
+/F0 11 Tf
+389.125 102.663 Td
+(axes.) Tj
 ET
 /F0 11 Tf
 BT
@@ -1321,7 +1336,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -1342,7 +1357,7 @@ ET
 endstream
 endobj
 8 0 obj
-12071
+12197
 endobj
 9 0 obj
 <<
@@ -1370,74 +1385,92 @@ stream
 BT
 /F0 11 Tf
 109.263 702.834 Td
-(p) Tj
-ET
-BT
-/F0 11 Tf
-117.513 702.834 Td
-(or) Tj
-ET
-BT
-/F0 11 Tf
-129.426 702.834 Td
-(C-v) Tj
+(\(sel\)S-o) Tj
 ET
 BT
 /F0 11 Tf
 162.426 702.834 Td
-(Paste) Tj
+(Move) Tj
 ET
 BT
 /F0 11 Tf
-188.397 702.834 Td
-(atoms) Tj
+190.839 702.834 Td
+(selection) Tj
 ET
 BT
 /F0 11 Tf
-217.426 702.834 Td
+232.694 702.834 Td
 (to) Tj
 ET
 BT
 /F0 11 Tf
-228.734 702.834 Td
+244.002 702.834 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-244.926 702.834 Td
-(current) Tj
+260.194 702.834 Td
+(coordinate) Tj
 ET
 BT
 /F0 11 Tf
-278.828 702.834 Td
-(tab.) Tj
+309.375 702.834 Td
+(system) Tj
+ET
+BT
+/F0 11 Tf
+342.683 702.834 Td
+(origin.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 687.445 Td
-(q) Tj
+(p) Tj
+ET
+BT
+/F0 11 Tf
+117.513 687.445 Td
+(or) Tj
+ET
+BT
+/F0 11 Tf
+129.426 687.445 Td
+(C-v) Tj
 ET
 BT
 /F0 11 Tf
 162.426 687.445 Td
-(Quit) Tj
+(Paste) Tj
 ET
-/F1 11 Tf
-BT
-/F1 11 Tf
-184.734 687.445 Td
-(vimol) Tj
-ET
-/F0 11 Tf
 BT
 /F0 11 Tf
-211.013 687.445 Td
-(.) Tj
+188.397 687.445 Td
+(atoms) Tj
+ET
+BT
+/F0 11 Tf
+217.426 687.445 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+228.734 687.445 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+244.926 687.445 Td
+(current) Tj
+ET
+BT
+/F0 11 Tf
+278.828 687.445 Td
+(tab.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 672.056 Td
-(S-q) Tj
+(q) Tj
 ET
 BT
 /F0 11 Tf
@@ -1453,838 +1486,830 @@ ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-213.763 672.056 Td
-(discarding) Tj
-ET
-BT
-/F0 11 Tf
-262.339 672.056 Td
-(unsaved) Tj
-ET
-BT
-/F0 11 Tf
-301.136 672.056 Td
-(changes.) Tj
+211.013 672.056 Td
+(.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 656.667 Td
-(r) Tj
+(S-q) Tj
 ET
 BT
 /F0 11 Tf
 162.426 656.667 Td
-(Start) Tj
+(Quit) Tj
+ET
+/F1 11 Tf
+BT
+/F1 11 Tf
+184.734 656.667 Td
+(vimol) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+213.763 656.667 Td
+(discarding) Tj
 ET
 BT
 /F0 11 Tf
-185.955 656.667 Td
-(recording) Tj
+262.339 656.667 Td
+(unsaved) Tj
 ET
 BT
 /F0 11 Tf
-230.857 656.667 Td
-(of) Tj
-ET
-BT
-/F0 11 Tf
-242.770 656.667 Td
-(issued) Tj
-ET
-BT
-/F0 11 Tf
-273.020 656.667 Td
-(commands.) Tj
-ET
-BT
-/F0 11 Tf
-328.933 656.667 Td
-(Recordings) Tj
-ET
-BT
-/F0 11 Tf
-381.788 656.667 Td
-(can) Tj
-ET
-BT
-/F0 11 Tf
-399.806 656.667 Td
-(be) Tj
-ET
-BT
-/F0 11 Tf
-412.940 656.667 Td
-(replayed) Tj
-ET
-BT
-/F0 11 Tf
-453.563 656.667 Td
-(by) Tj
-ET
-BT
-/F0 11 Tf
-467.313 656.667 Td
-(pressing) Tj
-ET
-BT
-/F0 11 Tf
-506.726 656.667 Td
-(t.) Tj
+301.136 656.667 Td
+(changes.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 641.278 Td
-(123s) Tj
+(r) Tj
 ET
 BT
 /F0 11 Tf
 162.426 641.278 Td
-(Select) Tj
+(Start) Tj
 ET
 BT
 /F0 11 Tf
-192.060 641.278 Td
-(atom) Tj
+185.955 641.278 Td
+(recording) Tj
 ET
 BT
 /F0 11 Tf
-216.810 641.278 Td
-(with) Tj
+230.857 641.278 Td
+(of) Tj
 ET
 BT
 /F0 11 Tf
-239.118 641.278 Td
-(index) Tj
+242.770 641.278 Td
+(issued) Tj
 ET
 BT
 /F0 11 Tf
-266.310 641.278 Td
-(123.) Tj
+273.020 641.278 Td
+(commands.) Tj
 ET
 BT
 /F0 11 Tf
-291.060 641.278 Td
-(Select) Tj
+328.933 641.278 Td
+(Recordings) Tj
 ET
 BT
 /F0 11 Tf
-320.694 641.278 Td
-(an) Tj
-ET
-BT
-/F0 11 Tf
-333.828 641.278 Td
-(unselected) Tj
-ET
-BT
-/F0 11 Tf
-383.009 641.278 Td
-(atom) Tj
-ET
-BT
-/F0 11 Tf
-407.759 641.278 Td
-(with) Tj
-ET
-BT
-/F0 11 Tf
-430.067 641.278 Td
-(lowest) Tj
-ET
-BT
-/F0 11 Tf
-461.538 641.278 Td
-(index) Tj
-ET
-BT
-/F0 11 Tf
-488.730 641.278 Td
-(if) Tj
-ET
-BT
-/F0 11 Tf
-498.201 641.278 Td
-(no) Tj
-ET
-BT
-/F0 11 Tf
-511.951 641.278 Td
-(index) Tj
-ET
-BT
-/F0 11 Tf
-162.426 625.889 Td
-(is) Tj
-ET
-BT
-/F0 11 Tf
-172.513 625.889 Td
-(specified.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 610.500 Td
-(t) Tj
-ET
-BT
-/F0 11 Tf
-162.426 610.500 Td
-(Replay) Tj
-ET
-BT
-/F0 11 Tf
-196.339 610.500 Td
-(last) Tj
-ET
-BT
-/F0 11 Tf
-214.368 610.500 Td
-(recording.) Tj
-ET
-BT
-/F0 11 Tf
-264.770 610.500 Td
-(Period) Tj
-ET
-BT
-/F0 11 Tf
-296.241 610.500 Td
-(key) Tj
-ET
-BT
-/F0 11 Tf
-314.875 610.500 Td
-('.') Tj
-ET
-BT
-/F0 11 Tf
-327.701 610.500 Td
-(with) Tj
-ET
-BT
-/F0 11 Tf
-350.009 610.500 Td
-(count) Tj
-ET
-BT
-/F0 11 Tf
-377.201 610.500 Td
+381.788 641.278 Td
 (can) Tj
 ET
 BT
 /F0 11 Tf
-395.219 610.500 Td
+399.806 641.278 Td
 (be) Tj
 ET
 BT
 /F0 11 Tf
-408.353 610.500 Td
-(used) Tj
+412.940 641.278 Td
+(replayed) Tj
 ET
 BT
 /F0 11 Tf
-431.266 610.500 Td
-(to) Tj
-ET
-BT
-/F0 11 Tf
-442.574 610.500 Td
-(repeat) Tj
-ET
-BT
-/F0 11 Tf
-472.197 610.500 Td
-(many) Tj
-ET
-BT
-/F0 11 Tf
-499.389 610.500 Td
-(times) Tj
-ET
-BT
-/F0 11 Tf
-162.426 595.111 Td
-(after) Tj
-ET
-BT
-/F0 11 Tf
-185.328 595.111 Td
-(that.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 579.722 Td
-(123u) Tj
-ET
-BT
-/F0 11 Tf
-162.426 579.722 Td
-(Unselect) Tj
-ET
-BT
-/F0 11 Tf
-203.665 579.722 Td
-(atom) Tj
-ET
-BT
-/F0 11 Tf
-228.415 579.722 Td
-(with) Tj
-ET
-BT
-/F0 11 Tf
-250.723 579.722 Td
-(index) Tj
-ET
-BT
-/F0 11 Tf
-277.915 579.722 Td
-(123.) Tj
-ET
-BT
-/F0 11 Tf
-302.665 579.722 Td
-(Unselect) Tj
-ET
-BT
-/F0 11 Tf
-343.904 579.722 Td
-(last) Tj
-ET
-BT
-/F0 11 Tf
-361.933 579.722 Td
-(selected) Tj
-ET
-BT
-/F0 11 Tf
-400.114 579.722 Td
-(atom) Tj
-ET
-BT
-/F0 11 Tf
-424.864 579.722 Td
-(if) Tj
-ET
-BT
-/F0 11 Tf
-434.335 579.722 Td
-(no) Tj
-ET
-BT
-/F0 11 Tf
-448.085 579.722 Td
-(index) Tj
-ET
-BT
-/F0 11 Tf
-475.277 579.722 Td
-(is) Tj
-ET
-BT
-/F0 11 Tf
-485.364 579.722 Td
-(specified.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 564.333 Td
-(\(sel\)v) Tj
-ET
-BT
-/F0 11 Tf
-162.426 564.333 Td
-(Hide) Tj
-ET
-BT
-/F0 11 Tf
-186.560 564.333 Td
-(selected) Tj
-ET
-BT
-/F0 11 Tf
-224.741 564.333 Td
-(atoms.) Tj
-ET
-BT
-/F0 11 Tf
-259.270 564.333 Td
-(Atoms) Tj
-ET
-BT
-/F0 11 Tf
-291.357 564.333 Td
-(can) Tj
-ET
-BT
-/F0 11 Tf
-309.375 564.333 Td
-(be) Tj
-ET
-BT
-/F0 11 Tf
-322.509 564.333 Td
-(made) Tj
-ET
-BT
-/F0 11 Tf
-349.085 564.333 Td
-(visible) Tj
-ET
-BT
-/F0 11 Tf
-381.172 564.333 Td
-(again) Tj
-ET
-BT
-/F0 11 Tf
-407.748 564.333 Td
+453.563 641.278 Td
 (by) Tj
 ET
 BT
 /F0 11 Tf
-421.498 564.333 Td
+467.313 641.278 Td
 (pressing) Tj
 ET
 BT
 /F0 11 Tf
-460.911 564.333 Td
-(z.) Tj
+506.726 641.278 Td
+(`t'.) Tj
 ET
 BT
 /F0 11 Tf
-109.263 548.944 Td
-(\(sel\)w) Tj
+109.263 625.889 Td
+(123s) Tj
 ET
 BT
 /F0 11 Tf
-162.426 548.944 Td
+162.426 625.889 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-192.060 548.944 Td
-(whole) Tj
+192.060 625.889 Td
+(an) Tj
 ET
 BT
 /F0 11 Tf
-221.694 548.944 Td
-(molecules) Tj
-ET
-BT
-/F0 11 Tf
-269.049 548.944 Td
-(containing) Tj
-ET
-BT
-/F0 11 Tf
-318.241 548.944 Td
-(selected) Tj
-ET
-BT
-/F0 11 Tf
-356.422 548.944 Td
-(atoms.) Tj
-ET
-BT
-/F0 11 Tf
-390.951 548.944 Td
-(123w) Tj
-ET
-BT
-/F0 11 Tf
-418.143 548.944 Td
-(selects) Tj
-ET
-BT
-/F0 11 Tf
-450.219 548.944 Td
-(the) Tj
-ET
-BT
-/F0 11 Tf
-466.411 548.944 Td
-(molecule) Tj
-ET
-BT
-/F0 11 Tf
-509.487 548.944 Td
-(to) Tj
-ET
-BT
-/F0 11 Tf
-162.426 533.555 Td
-(which) Tj
-ET
-BT
-/F0 11 Tf
-192.060 533.555 Td
+205.194 625.889 Td
 (atom) Tj
 ET
 BT
 /F0 11 Tf
-216.810 533.555 Td
-(123) Tj
+229.944 625.889 Td
+(with) Tj
 ET
 BT
 /F0 11 Tf
-236.060 533.555 Td
-(belongs.) Tj
+252.252 625.889 Td
+(index) Tj
 ET
 BT
 /F0 11 Tf
-109.263 518.166 Td
-(S-w) Tj
+279.444 625.889 Td
+(123.) Tj
 ET
 BT
 /F0 11 Tf
-162.426 518.166 Td
+109.263 610.500 Td
+(\(sel\)S-s) Tj
+ET
+BT
+/F0 11 Tf
+162.426 610.500 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-192.060 518.166 Td
+192.060 610.500 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-205.810 518.166 Td
-(water) Tj
+205.810 610.500 Td
+(atoms) Tj
 ET
 BT
 /F0 11 Tf
-232.991 518.166 Td
-(molecules.) Tj
+234.839 610.500 Td
+(directly) Tj
+ET
+BT
+/F0 11 Tf
+271.194 610.500 Td
+(connected) Tj
+ET
+BT
+/F0 11 Tf
+318.538 610.500 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+329.846 610.500 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+346.038 610.500 Td
+(selected) Tj
+ET
+BT
+/F0 11 Tf
+384.219 610.500 Td
+(atoms.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 595.111 Td
+(t) Tj
+ET
+BT
+/F0 11 Tf
+162.426 595.111 Td
+(Replay) Tj
+ET
+BT
+/F0 11 Tf
+196.339 595.111 Td
+(last) Tj
+ET
+BT
+/F0 11 Tf
+214.368 595.111 Td
+(recording.) Tj
+ET
+BT
+/F0 11 Tf
+264.770 595.111 Td
+(Period) Tj
+ET
+BT
+/F0 11 Tf
+296.241 595.111 Td
+(key) Tj
+ET
+BT
+/F0 11 Tf
+314.875 595.111 Td
+(`.') Tj
+ET
+BT
+/F0 11 Tf
+327.701 595.111 Td
+(with) Tj
+ET
+BT
+/F0 11 Tf
+350.009 595.111 Td
+(count) Tj
+ET
+BT
+/F0 11 Tf
+377.201 595.111 Td
+(can) Tj
+ET
+BT
+/F0 11 Tf
+395.219 595.111 Td
+(be) Tj
+ET
+BT
+/F0 11 Tf
+408.353 595.111 Td
+(used) Tj
+ET
+BT
+/F0 11 Tf
+431.266 595.111 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+442.574 595.111 Td
+(repeat) Tj
+ET
+BT
+/F0 11 Tf
+472.197 595.111 Td
+(many) Tj
+ET
+BT
+/F0 11 Tf
+499.389 595.111 Td
+(times) Tj
+ET
+BT
+/F0 11 Tf
+162.426 579.722 Td
+(after) Tj
+ET
+BT
+/F0 11 Tf
+185.328 579.722 Td
+(that.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 564.333 Td
+(123u) Tj
+ET
+BT
+/F0 11 Tf
+162.426 564.333 Td
+(Unselect) Tj
+ET
+BT
+/F0 11 Tf
+203.665 564.333 Td
+(an) Tj
+ET
+BT
+/F0 11 Tf
+216.799 564.333 Td
+(atom) Tj
+ET
+BT
+/F0 11 Tf
+241.549 564.333 Td
+(with) Tj
+ET
+BT
+/F0 11 Tf
+263.857 564.333 Td
+(index) Tj
+ET
+BT
+/F0 11 Tf
+291.049 564.333 Td
+(123.) Tj
+ET
+BT
+/F0 11 Tf
+315.799 564.333 Td
+(Unselect) Tj
+ET
+BT
+/F0 11 Tf
+357.038 564.333 Td
+(last) Tj
+ET
+BT
+/F0 11 Tf
+375.067 564.333 Td
+(selected) Tj
+ET
+BT
+/F0 11 Tf
+413.248 564.333 Td
+(atom) Tj
+ET
+BT
+/F0 11 Tf
+437.998 564.333 Td
+(if) Tj
+ET
+BT
+/F0 11 Tf
+447.469 564.333 Td
+(no) Tj
+ET
+BT
+/F0 11 Tf
+461.219 564.333 Td
+(index) Tj
+ET
+BT
+/F0 11 Tf
+488.411 564.333 Td
+(is) Tj
+ET
+BT
+/F0 11 Tf
+498.498 564.333 Td
+(specified.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 548.944 Td
+(\(sel\)v) Tj
+ET
+BT
+/F0 11 Tf
+162.426 548.944 Td
+(Hide) Tj
+ET
+BT
+/F0 11 Tf
+186.560 548.944 Td
+(selected) Tj
+ET
+BT
+/F0 11 Tf
+224.741 548.944 Td
+(atoms.) Tj
+ET
+BT
+/F0 11 Tf
+259.270 548.944 Td
+(Atoms) Tj
+ET
+BT
+/F0 11 Tf
+291.357 548.944 Td
+(can) Tj
+ET
+BT
+/F0 11 Tf
+309.375 548.944 Td
+(be) Tj
+ET
+BT
+/F0 11 Tf
+322.509 548.944 Td
+(made) Tj
+ET
+BT
+/F0 11 Tf
+349.085 548.944 Td
+(visible) Tj
+ET
+BT
+/F0 11 Tf
+381.172 548.944 Td
+(again) Tj
+ET
+BT
+/F0 11 Tf
+407.748 548.944 Td
+(by) Tj
+ET
+BT
+/F0 11 Tf
+421.498 548.944 Td
+(pressing) Tj
+ET
+BT
+/F0 11 Tf
+460.911 548.944 Td
+(`z'.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 533.555 Td
+(\(sel\)w) Tj
+ET
+BT
+/F0 11 Tf
+162.426 533.555 Td
+(Select) Tj
+ET
+BT
+/F0 11 Tf
+192.060 533.555 Td
+(whole) Tj
+ET
+BT
+/F0 11 Tf
+221.694 533.555 Td
+(molecules) Tj
+ET
+BT
+/F0 11 Tf
+269.049 533.555 Td
+(containing) Tj
+ET
+BT
+/F0 11 Tf
+318.241 533.555 Td
+(selected) Tj
+ET
+BT
+/F0 11 Tf
+356.422 533.555 Td
+(atoms.) Tj
+ET
+BT
+/F0 11 Tf
+390.951 533.555 Td
+(123w) Tj
+ET
+BT
+/F0 11 Tf
+418.143 533.555 Td
+(selects) Tj
+ET
+BT
+/F0 11 Tf
+450.219 533.555 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+466.411 533.555 Td
+(molecule) Tj
+ET
+BT
+/F0 11 Tf
+509.487 533.555 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+162.426 518.166 Td
+(which) Tj
+ET
+BT
+/F0 11 Tf
+192.060 518.166 Td
+(atom) Tj
+ET
+BT
+/F0 11 Tf
+216.810 518.166 Td
+(123) Tj
+ET
+BT
+/F0 11 Tf
+236.060 518.166 Td
+(belongs.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 502.777 Td
-(\(sel\)x) Tj
+(S-w) Tj
 ET
 BT
 /F0 11 Tf
-137.060 502.777 Td
-(or) Tj
+162.426 502.777 Td
+(Select) Tj
 ET
 BT
 /F0 11 Tf
-148.973 502.777 Td
-(\(sel\)C-x) Tj
-ET
-BT
-/F0 11 Tf
-162.426 487.388 Td
-(Cut) Tj
-ET
-BT
-/F0 11 Tf
-181.071 487.388 Td
-(\(copy) Tj
-ET
-BT
-/F0 11 Tf
-208.868 487.388 Td
-(and) Tj
-ET
-BT
-/F0 11 Tf
-227.502 487.388 Td
-(delete\)) Tj
-ET
-BT
-/F0 11 Tf
-260.183 487.388 Td
-(selected) Tj
-ET
-BT
-/F0 11 Tf
-298.364 487.388 Td
-(atoms.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 471.999 Td
-(\(sel\)y) Tj
-ET
-BT
-/F0 11 Tf
-137.060 471.999 Td
-(or) Tj
-ET
-BT
-/F0 11 Tf
-148.973 471.999 Td
-(\(sel\)C-c) Tj
-ET
-BT
-/F0 11 Tf
-162.426 456.610 Td
-(Copy) Tj
-ET
-BT
-/F0 11 Tf
-189.013 456.610 Td
-(selected) Tj
-ET
-BT
-/F0 11 Tf
-227.194 456.610 Td
-(atoms.) Tj
-ET
-BT
-/F0 11 Tf
-109.263 441.221 Td
-(z) Tj
-ET
-BT
-/F0 11 Tf
-162.426 441.221 Td
-(Show) Tj
-ET
-BT
-/F0 11 Tf
-190.234 441.221 Td
+192.060 502.777 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-203.984 441.221 Td
-(hidden) Tj
+205.810 502.777 Td
+(water) Tj
 ET
 BT
 /F0 11 Tf
-236.676 441.221 Td
+232.991 502.777 Td
+(molecules.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 487.388 Td
+(\(sel\)x) Tj
+ET
+BT
+/F0 11 Tf
+137.060 487.388 Td
+(or) Tj
+ET
+BT
+/F0 11 Tf
+148.973 487.388 Td
+(\(sel\)C-x) Tj
+ET
+BT
+/F0 11 Tf
+162.426 471.999 Td
+(Cut) Tj
+ET
+BT
+/F0 11 Tf
+181.071 471.999 Td
+(\(copy) Tj
+ET
+BT
+/F0 11 Tf
+208.868 471.999 Td
+(and) Tj
+ET
+BT
+/F0 11 Tf
+227.502 471.999 Td
+(delete\)) Tj
+ET
+BT
+/F0 11 Tf
+260.183 471.999 Td
+(selected) Tj
+ET
+BT
+/F0 11 Tf
+298.364 471.999 Td
+(atoms.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 456.610 Td
+(\(sel\)y) Tj
+ET
+BT
+/F0 11 Tf
+137.060 456.610 Td
+(or) Tj
+ET
+BT
+/F0 11 Tf
+148.973 456.610 Td
+(\(sel\)C-c) Tj
+ET
+BT
+/F0 11 Tf
+162.426 441.221 Td
+(Copy) Tj
+ET
+BT
+/F0 11 Tf
+189.013 441.221 Td
+(selected) Tj
+ET
+BT
+/F0 11 Tf
+227.194 441.221 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 425.832 Td
-(C-a) Tj
+(z) Tj
 ET
 BT
 /F0 11 Tf
 162.426 425.832 Td
-(Select) Tj
+(Show) Tj
 ET
 BT
 /F0 11 Tf
-192.060 425.832 Td
+190.234 425.832 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-205.810 425.832 Td
+203.984 425.832 Td
+(hidden) Tj
+ET
+BT
+/F0 11 Tf
+236.676 425.832 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 410.443 Td
-(C-[hjklfg]) Tj
+(C-a) Tj
 ET
 BT
 /F0 11 Tf
 162.426 410.443 Td
-(Rotate) Tj
+(Select) Tj
 ET
 BT
 /F0 11 Tf
-193.897 410.443 Td
-(selected) Tj
+192.060 410.443 Td
+(all) Tj
 ET
 BT
 /F0 11 Tf
-232.078 410.443 Td
+205.810 410.443 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 395.054 Td
-(CS-[hjkl]) Tj
+(C-[hjklfg]) Tj
 ET
 BT
 /F0 11 Tf
 162.426 395.054 Td
-(Move) Tj
+(Rotate) Tj
 ET
 BT
 /F0 11 Tf
-190.839 395.054 Td
+193.897 395.054 Td
 (selected) Tj
 ET
 BT
 /F0 11 Tf
-229.020 395.054 Td
+232.078 395.054 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 379.665 Td
-(C-r) Tj
+(CS-[hjkl]) Tj
 ET
 BT
 /F0 11 Tf
 162.426 379.665 Td
-(Redo) Tj
+(Move) Tj
 ET
 BT
 /F0 11 Tf
-188.397 379.665 Td
-(last) Tj
+190.839 379.665 Td
+(selected) Tj
 ET
 BT
 /F0 11 Tf
-206.426 379.665 Td
-(change.) Tj
+229.020 379.665 Td
+(atoms.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 364.276 Td
-(C-z) Tj
+(C-r) Tj
 ET
 BT
 /F0 11 Tf
 162.426 364.276 Td
-(Undo) Tj
+(Redo) Tj
 ET
 BT
 /F0 11 Tf
-189.618 364.276 Td
+188.397 364.276 Td
 (last) Tj
 ET
 BT
 /F0 11 Tf
-207.647 364.276 Td
+206.426 364.276 Td
 (change.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 348.887 Td
-(123.) Tj
+(C-z) Tj
 ET
 BT
 /F0 11 Tf
 162.426 348.887 Td
-(Repeat) Tj
+(Undo) Tj
 ET
 BT
 /F0 11 Tf
-195.723 348.887 Td
+189.618 348.887 Td
 (last) Tj
 ET
 BT
 /F0 11 Tf
-213.752 348.887 Td
-(command) Tj
-ET
-BT
-/F0 11 Tf
-259.886 348.887 Td
-(123) Tj
-ET
-BT
-/F0 11 Tf
-279.136 348.887 Td
-(times.) Tj
+207.647 348.887 Td
+(change.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 333.498 Td
-(=) Tj
+(123.) Tj
 ET
 BT
 /F0 11 Tf
 162.426 333.498 Td
-(Invert) Tj
+(Repeat) Tj
 ET
 BT
 /F0 11 Tf
-191.444 333.498 Td
-(current) Tj
+195.723 333.498 Td
+(last) Tj
 ET
 BT
 /F0 11 Tf
-225.346 333.498 Td
-(selection.) Tj
+213.752 333.498 Td
+(command) Tj
+ET
+BT
+/F0 11 Tf
+259.886 333.498 Td
+(123) Tj
+ET
+BT
+/F0 11 Tf
+279.136 333.498 Td
+(times.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 318.109 Td
-(Space) Tj
+(=) Tj
 ET
 BT
 /F0 11 Tf
 162.426 318.109 Td
-(Toggle) Tj
+(Invert) Tj
 ET
 BT
 /F0 11 Tf
-196.339 318.109 Td
-(full) Tj
+191.444 318.109 Td
+(current) Tj
 ET
 BT
 /F0 11 Tf
-214.368 318.109 Td
-(screen) Tj
-ET
-BT
-/F0 11 Tf
-245.212 318.109 Td
-(mode.) Tj
+225.346 318.109 Td
+(selection.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 302.720 Td
-(`) Tj
+(Space) Tj
 ET
 BT
 /F0 11 Tf
 162.426 302.720 Td
-(Reset) Tj
+(Toggle) Tj
 ET
 BT
 /F0 11 Tf
-189.618 302.720 Td
-(the) Tj
+196.339 302.720 Td
+(full) Tj
 ET
 BT
 /F0 11 Tf
-205.810 302.720 Td
-(view.) Tj
+214.368 302.720 Td
+(screen) Tj
+ET
+BT
+/F0 11 Tf
+245.212 302.720 Td
+(mode.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 287.331 Td
-([) Tj
+(`) Tj
 ET
 BT
 /F0 11 Tf
 162.426 287.331 Td
-(Go) Tj
+(Reset) Tj
 ET
 BT
 /F0 11 Tf
-178.618 287.331 Td
-(to) Tj
-ET
-BT
-/F0 11 Tf
-189.926 287.331 Td
+189.618 287.331 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-206.118 287.331 Td
-(previous) Tj
-ET
-BT
-/F0 11 Tf
-246.752 287.331 Td
-(frame.) Tj
+205.810 287.331 Td
+(view.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 271.942 Td
-(]) Tj
+([) Tj
 ET
 BT
 /F0 11 Tf
@@ -2304,17 +2329,17 @@ ET
 BT
 /F0 11 Tf
 206.118 271.942 Td
-(next) Tj
+(previous) Tj
 ET
 BT
 /F0 11 Tf
-227.810 271.942 Td
+246.752 271.942 Td
 (frame.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 256.553 Td
-({) Tj
+(]) Tj
 ET
 BT
 /F0 11 Tf
@@ -2324,22 +2349,27 @@ ET
 BT
 /F0 11 Tf
 178.618 256.553 Td
-(100) Tj
+(to) Tj
 ET
 BT
 /F0 11 Tf
-197.868 256.553 Td
-(frames) Tj
+189.926 256.553 Td
+(the) Tj
 ET
 BT
 /F0 11 Tf
-230.549 256.553 Td
-(backward.) Tj
+206.118 256.553 Td
+(next) Tj
+ET
+BT
+/F0 11 Tf
+227.810 256.553 Td
+(frame.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 241.164 Td
-(}) Tj
+({) Tj
 ET
 BT
 /F0 11 Tf
@@ -2359,42 +2389,37 @@ ET
 BT
 /F0 11 Tf
 230.549 241.164 Td
-(forward.) Tj
+(backward.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 225.775 Td
-(<) Tj
+(}) Tj
 ET
 BT
 /F0 11 Tf
 162.426 225.775 Td
-(Switch) Tj
+(Go) Tj
 ET
 BT
 /F0 11 Tf
-195.734 225.775 Td
-(to) Tj
+178.618 225.775 Td
+(100) Tj
 ET
 BT
 /F0 11 Tf
-207.042 225.775 Td
-(the) Tj
+197.868 225.775 Td
+(frames) Tj
 ET
 BT
 /F0 11 Tf
-223.234 225.775 Td
-(previous) Tj
-ET
-BT
-/F0 11 Tf
-263.868 225.775 Td
-(tab.) Tj
+230.549 225.775 Td
+(forward.) Tj
 ET
 BT
 /F0 11 Tf
 109.263 210.386 Td
-(>) Tj
+(<) Tj
 ET
 BT
 /F0 11 Tf
@@ -2414,210 +2439,240 @@ ET
 BT
 /F0 11 Tf
 223.234 210.386 Td
+(previous) Tj
+ET
+BT
+/F0 11 Tf
+263.868 210.386 Td
+(tab.) Tj
+ET
+BT
+/F0 11 Tf
+109.263 194.997 Td
+(>) Tj
+ET
+BT
+/F0 11 Tf
+162.426 194.997 Td
+(Switch) Tj
+ET
+BT
+/F0 11 Tf
+195.734 194.997 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+207.042 194.997 Td
+(the) Tj
+ET
+BT
+/F0 11 Tf
+223.234 194.997 Td
 (next) Tj
 ET
 BT
 /F0 11 Tf
-244.926 210.386 Td
+244.926 194.997 Td
 (tab.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-68.013 179.608 Td
+68.013 164.219 Td
 (SELECTIONS) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-81.763 164.219 Td
+81.763 148.830 Td
 (An) Tj
 ET
 BT
 /F0 11 Tf
-97.955 164.219 Td
+97.955 148.830 Td
 (atom) Tj
 ET
 BT
 /F0 11 Tf
-122.705 164.219 Td
+122.705 148.830 Td
 (selection,) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-167.310 164.219 Td
+167.310 148.830 Td
 (sel) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-179.531 164.219 Td
+179.531 148.830 Td
 (,) Tj
 ET
 BT
 /F0 11 Tf
-185.031 164.219 Td
+185.031 148.830 Td
 (can) Tj
 ET
 BT
 /F0 11 Tf
-203.049 164.219 Td
+203.049 148.830 Td
 (be) Tj
 ET
 BT
 /F0 11 Tf
-216.183 164.219 Td
+216.183 148.830 Td
 (specified) Tj
 ET
 BT
 /F0 11 Tf
-258.643 164.219 Td
+258.643 148.830 Td
 (in) Tj
 ET
 BT
 /F0 11 Tf
-269.951 164.219 Td
+269.951 148.830 Td
 (various) Tj
 ET
 BT
 /F0 11 Tf
-305.085 164.219 Td
+305.085 148.830 Td
 (ways.) Tj
 ET
 BT
 /F0 11 Tf
-81.763 133.441 Td
+81.763 118.052 Td
 (First,) Tj
 ET
 BT
 /F0 11 Tf
-107.437 133.441 Td
+107.437 118.052 Td
 (an) Tj
 ET
 BT
 /F0 11 Tf
-120.571 133.441 Td
+120.571 118.052 Td
 (explicit) Tj
 ET
 BT
 /F0 11 Tf
-156.321 133.441 Td
+156.321 118.052 Td
 (atom) Tj
 ET
 BT
 /F0 11 Tf
-181.071 133.441 Td
+181.071 118.052 Td
 (index) Tj
 ET
 BT
 /F0 11 Tf
-208.263 133.441 Td
+208.263 118.052 Td
 (can) Tj
 ET
 BT
 /F0 11 Tf
-226.281 133.441 Td
+226.281 118.052 Td
 (be) Tj
 ET
 BT
 /F0 11 Tf
-239.415 133.441 Td
+239.415 118.052 Td
 (provided) Tj
 ET
 BT
 /F0 11 Tf
-281.270 133.441 Td
+281.270 118.052 Td
 (using) Tj
 ET
 BT
 /F0 11 Tf
-307.857 133.441 Td
+307.857 118.052 Td
 (number) Tj
 ET
 BT
 /F0 11 Tf
-344.212 133.441 Td
+344.212 118.052 Td
 (keys) Tj
 ET
 BT
 /F0 11 Tf
-367.125 133.441 Td
+367.125 118.052 Td
 ([0-9].) Tj
 ET
 BT
 /F0 11 Tf
-397.364 133.441 Td
+397.364 118.052 Td
 (This) Tj
 ET
 BT
 /F0 11 Tf
-419.672 133.441 Td
+419.672 118.052 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-429.759 133.441 Td
+429.759 118.052 Td
 (useful) Tj
 ET
 BT
 /F0 11 Tf
-459.393 133.441 Td
+459.393 118.052 Td
 (with) Tj
 ET
 BT
 /F0 11 Tf
-481.701 133.441 Td
+481.701 118.052 Td
 (key) Tj
 ET
 BT
 /F0 11 Tf
-81.763 118.052 Td
+81.763 102.663 Td
 (combinations.) Tj
 ET
 BT
 /F0 11 Tf
-149.292 118.052 Td
+149.292 102.663 Td
 (For) Tj
 ET
 BT
 /F0 11 Tf
-167.321 118.052 Td
+167.321 102.663 Td
 (example,) Tj
 ET
 BT
 /F0 11 Tf
-210.089 118.052 Td
+210.089 102.663 Td
 (123d) Tj
 ET
 BT
 /F0 11 Tf
-234.839 118.052 Td
+234.839 102.663 Td
 (deletes) Tj
 ET
 BT
 /F0 11 Tf
-268.136 118.052 Td
+268.136 102.663 Td
 (an) Tj
 ET
 BT
 /F0 11 Tf
-281.270 118.052 Td
+281.270 102.663 Td
 (atom) Tj
 ET
 BT
 /F0 11 Tf
-306.020 118.052 Td
+306.020 102.663 Td
 (with) Tj
 ET
 BT
 /F0 11 Tf
-328.328 118.052 Td
+328.328 102.663 Td
 (index) Tj
 ET
 BT
 /F0 11 Tf
-355.520 118.052 Td
+355.520 102.663 Td
 (123.) Tj
 ET
 /F0 11 Tf
@@ -2664,7 +2719,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -2685,7 +2740,7 @@ ET
 endstream
 endobj
 12 0 obj
-12059
+12448
 endobj
 13 0 obj
 <<
@@ -2860,7 +2915,7 @@ ET
 BT
 /F0 11 Tf
 425.997 687.445 Td
-(':'.) Tj
+(`:'.) Tj
 ET
 BT
 /F0 11 Tf
@@ -3015,7 +3070,7 @@ ET
 BT
 /F0 11 Tf
 269.665 656.667 Td
-('*') Tj
+(`*') Tj
 ET
 BT
 /F0 11 Tf
@@ -3247,7 +3302,7 @@ ET
 BT
 /F0 11 Tf
 499.125 564.333 Td
-(':'.) Tj
+(`:'.) Tj
 ET
 BT
 /F0 11 Tf
@@ -3364,6 +3419,11 @@ ET
 BT
 /F0 11 Tf
 221.364 533.555 Td
+(a) Tj
+ET
+BT
+/F0 11 Tf
+228.998 533.555 Td
 (semicolon.) Tj
 ET
 /F1 11 Tf
@@ -4103,7 +4163,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -4124,7 +4184,7 @@ ET
 endstream
 endobj
 16 0 obj
-12914
+12956
 endobj
 17 0 obj
 <<
@@ -5037,7 +5097,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -5857,31 +5917,6 @@ BT
 331.067 102.663 Td
 (selection.) Tj
 ET
-BT
-/F0 11 Tf
-378.422 102.663 Td
-(Select) Tj
-ET
-BT
-/F0 11 Tf
-408.056 102.663 Td
-(an) Tj
-ET
-BT
-/F0 11 Tf
-421.190 102.663 Td
-(unselected) Tj
-ET
-BT
-/F0 11 Tf
-470.371 102.663 Td
-(atom) Tj
-ET
-BT
-/F0 11 Tf
-495.121 102.663 Td
-(with) Tj
-ET
 /F0 11 Tf
 BT
 /F0 11 Tf
@@ -5926,7 +5961,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -5947,7 +5982,7 @@ ET
 endstream
 endobj
 24 0 obj
-7873
+7642
 endobj
 25 0 obj
 <<
@@ -5973,1246 +6008,1291 @@ endobj
 >>
 stream
 BT
+/F1 11 Tf
+109.263 702.834 Td
+(select-connected) Tj
+ET
 /F0 11 Tf
-147.763 702.834 Td
-(lowest) Tj
+BT
+/F0 11 Tf
+188.375 702.834 Td
+([) Tj
+ET
+/F2 11 Tf
+BT
+/F2 11 Tf
+192.038 702.834 Td
+(sel) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+204.259 702.834 Td
+(]) Tj
 ET
 BT
 /F0 11 Tf
-179.234 702.834 Td
-(index) Tj
+147.763 687.445 Td
+(Select) Tj
 ET
 BT
 /F0 11 Tf
-206.426 702.834 Td
-(if) Tj
+177.397 687.445 Td
+(all) Tj
 ET
 BT
 /F0 11 Tf
-215.897 702.834 Td
-(the) Tj
+191.147 687.445 Td
+(atoms) Tj
 ET
 BT
 /F0 11 Tf
-232.089 702.834 Td
-(argument) Tj
+220.176 687.445 Td
+(directly) Tj
 ET
 BT
 /F0 11 Tf
-276.386 702.834 Td
-(is) Tj
+256.531 687.445 Td
+(connected) Tj
 ET
 BT
 /F0 11 Tf
-286.473 702.834 Td
-(omitted.) Tj
+303.875 687.445 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+315.183 687.445 Td
+(atoms) Tj
+ET
+BT
+/F0 11 Tf
+344.212 687.445 Td
+(in) Tj
+ET
+BT
+/F0 11 Tf
+355.520 687.445 Td
+(selection) Tj
+ET
+/F2 11 Tf
+BT
+/F2 11 Tf
+397.375 687.445 Td
+(sel) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+409.596 687.445 Td
+(.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 672.056 Td
+109.263 656.667 Td
 (select-element) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-177.980 672.056 Td
+177.980 656.667 Td
 (name) Tj
 ET
 BT
 /F2 11 Tf
-204.556 672.056 Td
+204.556 656.667 Td
 (...) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-147.763 656.667 Td
+147.763 641.278 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-177.397 656.667 Td
+177.397 641.278 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-191.147 656.667 Td
+191.147 641.278 Td
 (atoms) Tj
 ET
 BT
 /F0 11 Tf
-220.176 656.667 Td
+220.176 641.278 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-232.089 656.667 Td
+232.089 641.278 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-239.723 656.667 Td
+239.723 641.278 Td
 (particular) Tj
 ET
 BT
 /F0 11 Tf
-284.625 656.667 Td
+284.625 641.278 Td
 (type.) Tj
 ET
 BT
 /F0 11 Tf
-311.817 656.667 Td
+311.817 641.278 Td
 (This) Tj
 ET
 BT
 /F0 11 Tf
-334.125 656.667 Td
+334.125 641.278 Td
 (command) Tj
 ET
 BT
 /F0 11 Tf
-380.259 656.667 Td
+380.259 641.278 Td
 (takes) Tj
 ET
 BT
 /F0 11 Tf
-405.614 656.667 Td
+405.614 641.278 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-413.248 656.667 Td
+413.248 641.278 Td
 (list) Tj
 ET
 BT
 /F0 11 Tf
-429.451 656.667 Td
+429.451 641.278 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-441.364 656.667 Td
+441.364 641.278 Td
 (element) Tj
 ET
 BT
 /F0 11 Tf
-478.940 656.667 Td
+478.940 641.278 Td
 (names.) Tj
 ET
 BT
 /F0 11 Tf
-147.763 641.278 Td
+147.763 625.889 Td
 (Atoms) Tj
 ET
 BT
 /F0 11 Tf
-179.850 641.278 Td
+179.850 625.889 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-191.763 641.278 Td
+191.763 625.889 Td
 (those) Tj
 ET
 BT
 /F0 11 Tf
-217.734 641.278 Td
+217.734 625.889 Td
 (types) Tj
 ET
 BT
 /F0 11 Tf
-243.705 641.278 Td
+243.705 625.889 Td
 (will) Tj
 ET
 BT
 /F0 11 Tf
-263.571 641.278 Td
+263.571 625.889 Td
 (be) Tj
 ET
 BT
 /F0 11 Tf
-276.705 641.278 Td
+276.705 625.889 Td
 (added) Tj
 ET
 BT
 /F0 11 Tf
-305.723 641.278 Td
+305.723 625.889 Td
 (to) Tj
 ET
 BT
 /F0 11 Tf
-317.031 641.278 Td
+317.031 625.889 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-333.223 641.278 Td
+333.223 625.889 Td
 (current) Tj
 ET
 BT
 /F0 11 Tf
-367.125 641.278 Td
+367.125 625.889 Td
 (selection.) Tj
 ET
 BT
 /F0 11 Tf
-414.480 641.278 Td
+414.480 625.889 Td
 (For) Tj
 ET
 BT
 /F0 11 Tf
-432.509 641.278 Td
+432.509 625.889 Td
 (example,) Tj
 ET
 BT
 /F0 11 Tf
-164.263 610.500 Td
+164.263 595.111 Td
 (select-element) Tj
 ET
 BT
 /F0 11 Tf
-230.549 610.500 Td
+230.549 595.111 Td
 (H) Tj
 ET
 BT
 /F0 11 Tf
-241.241 610.500 Td
+241.241 595.111 Td
 (N) Tj
 ET
 BT
 /F0 11 Tf
-147.763 595.111 Td
+147.763 579.722 Td
 (selects) Tj
 ET
 BT
 /F0 11 Tf
-179.839 595.111 Td
+179.839 579.722 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-193.589 595.111 Td
+193.589 579.722 Td
 (hydrogen) Tj
 ET
 BT
 /F0 11 Tf
-237.886 595.111 Td
+237.886 579.722 Td
 (and) Tj
 ET
 BT
 /F0 11 Tf
-256.520 595.111 Td
+256.520 579.722 Td
 (nitrogen) Tj
 ET
 BT
 /F0 11 Tf
-295.933 595.111 Td
+295.933 579.722 Td
 (atoms.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 564.333 Td
+109.263 548.944 Td
 (select-molecule) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-182.875 564.333 Td
+182.875 548.944 Td
 ([) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-186.538 564.333 Td
+186.538 548.944 Td
 (sel) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-198.759 564.333 Td
+198.759 548.944 Td
 (]) Tj
 ET
 BT
 /F0 11 Tf
-147.763 548.944 Td
+147.763 533.555 Td
 (For) Tj
 ET
 BT
 /F0 11 Tf
-165.792 548.944 Td
+165.792 533.555 Td
 (each) Tj
 ET
 BT
 /F0 11 Tf
-188.694 548.944 Td
+188.694 533.555 Td
 (atom) Tj
 ET
 BT
 /F0 11 Tf
-213.444 548.944 Td
+213.444 533.555 Td
 (in) Tj
 ET
 BT
 /F0 11 Tf
-224.752 548.944 Td
+224.752 533.555 Td
 (selection) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-266.607 548.944 Td
+266.607 533.555 Td
 (sel) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-278.828 548.944 Td
+278.828 533.555 Td
 (,) Tj
 ET
 BT
 /F0 11 Tf
-284.328 548.944 Td
+284.328 533.555 Td
 (select) Tj
 ET
 BT
 /F0 11 Tf
-312.125 548.944 Td
+312.125 533.555 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-328.317 548.944 Td
+328.317 533.555 Td
 (whole) Tj
 ET
 BT
 /F0 11 Tf
-357.951 548.944 Td
+357.951 533.555 Td
 (molecule) Tj
 ET
 BT
 /F0 11 Tf
-401.027 548.944 Td
+401.027 533.555 Td
 (containing) Tj
 ET
 BT
 /F0 11 Tf
-450.219 548.944 Td
+450.219 533.555 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-466.411 548.944 Td
+466.411 533.555 Td
 (atom.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 518.166 Td
+109.263 502.777 Td
 (select-within) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-171.281 518.166 Td
+171.281 502.777 Td
 (radius) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-202.147 518.166 Td
+202.147 502.777 Td
 ([) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-205.810 518.166 Td
+205.810 502.777 Td
 (sel) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-218.031 518.166 Td
+218.031 502.777 Td
 (]) Tj
 ET
 BT
 /F0 11 Tf
-147.763 502.777 Td
+147.763 487.388 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-177.397 502.777 Td
+177.397 487.388 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-191.147 502.777 Td
+191.147 487.388 Td
 (atoms) Tj
 ET
 BT
 /F0 11 Tf
-220.176 502.777 Td
+220.176 487.388 Td
 (which) Tj
 ET
 BT
 /F0 11 Tf
-249.810 502.777 Td
+249.810 487.388 Td
 (are) Tj
 ET
 BT
 /F0 11 Tf
-265.991 502.777 Td
+265.991 487.388 Td
 (within) Tj
 ET
 BT
 /F0 11 Tf
-296.857 502.777 Td
+296.857 487.388 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-304.491 502.777 Td
+304.491 487.388 Td
 (specified) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-346.951 502.777 Td
+346.951 487.388 Td
 (radius) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-377.817 502.777 Td
+377.817 487.388 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-389.730 502.777 Td
+389.730 487.388 Td
 (atoms) Tj
 ET
 BT
 /F0 11 Tf
-418.759 502.777 Td
+418.759 487.388 Td
 (in) Tj
 ET
 BT
 /F0 11 Tf
-430.067 502.777 Td
+430.067 487.388 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-446.259 502.777 Td
+446.259 487.388 Td
 (selection) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-488.114 502.777 Td
+488.114 487.388 Td
 (sel) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-500.335 502.777 Td
+500.335 487.388 Td
 (.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 471.999 Td
+109.263 456.610 Td
 (select-water) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-147.763 456.610 Td
+147.763 441.221 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-177.397 456.610 Td
+177.397 441.221 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-191.147 456.610 Td
+191.147 441.221 Td
 (water) Tj
 ET
 BT
 /F0 11 Tf
-218.328 456.610 Td
+218.328 441.221 Td
 (molecules.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 425.832 Td
+109.263 410.443 Td
 (select-x) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-146.828 425.832 Td
+146.828 410.443 Td
 ([) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-150.491 425.832 Td
+150.491 410.443 Td
 (x) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-155.375 425.832 Td
+155.375 410.443 Td
 (]) Tj
 ET
 BT
 /F0 11 Tf
-147.763 410.443 Td
+147.763 395.054 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-177.397 410.443 Td
+177.397 395.054 Td
 (atoms) Tj
 ET
 BT
 /F0 11 Tf
-206.426 410.443 Td
+206.426 395.054 Td
 (with) Tj
 ET
 BT
 /F0 11 Tf
-228.734 410.443 Td
+228.734 395.054 Td
 (x) Tj
 ET
 BT
 /F0 11 Tf
-236.984 410.443 Td
+236.984 395.054 Td
 (coordinate) Tj
 ET
 BT
 /F0 11 Tf
-286.165 410.443 Td
+286.165 395.054 Td
 (grater) Tj
 ET
 BT
 /F0 11 Tf
-314.567 410.443 Td
+314.567 395.054 Td
 (than) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-336.259 410.443 Td
+336.259 395.054 Td
 (x) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-341.143 410.443 Td
+341.143 395.054 Td
 (.) Tj
 ET
 BT
 /F0 11 Tf
-349.393 410.443 Td
+349.393 395.054 Td
 (Invert) Tj
 ET
 BT
 /F0 11 Tf
-378.411 410.443 Td
+378.411 395.054 Td
 (selection) Tj
 ET
 BT
 /F0 11 Tf
-420.266 410.443 Td
+420.266 395.054 Td
 (to) Tj
 ET
 BT
 /F0 11 Tf
-431.574 410.443 Td
+431.574 395.054 Td
 (get) Tj
 ET
 BT
 /F0 11 Tf
-447.766 410.443 Td
+447.766 395.054 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-463.958 410.443 Td
+463.958 395.054 Td
 (complementary) Tj
 ET
 BT
 /F0 11 Tf
-147.763 395.054 Td
+147.763 379.665 Td
 (set) Tj
 ET
 BT
 /F0 11 Tf
-162.734 395.054 Td
+162.734 379.665 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-174.647 395.054 Td
+174.647 379.665 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
-209.176 395.054 Td
+209.176 379.665 Td
 (This) Tj
 ET
 BT
 /F0 11 Tf
-231.484 395.054 Td
+231.484 379.665 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-241.571 395.054 Td
+241.571 379.665 Td
 (useful) Tj
 ET
 BT
 /F0 11 Tf
-271.205 395.054 Td
+271.205 379.665 Td
 (for) Tj
 ET
 BT
 /F0 11 Tf
-286.781 395.054 Td
+286.781 379.665 Td
 (making) Tj
 ET
 BT
 /F0 11 Tf
-322.531 395.054 Td
+322.531 379.665 Td
 (solvation) Tj
 ET
 BT
 /F0 11 Tf
-365.618 395.054 Td
+365.618 379.665 Td
 (boxes.) Tj
 ET
 BT
 /F0 11 Tf
-399.531 395.054 Td
+399.531 379.665 Td
 (The) Tj
 ET
 BT
 /F0 11 Tf
-419.386 395.054 Td
+419.386 379.665 Td
 (default) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-452.683 395.054 Td
+452.683 379.665 Td
 (x) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-460.317 395.054 Td
+460.317 379.665 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-470.404 395.054 Td
+470.404 379.665 Td
 (0.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 364.276 Td
+109.263 348.887 Td
 (select-y) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-146.828 364.276 Td
+146.828 348.887 Td
 ([) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-150.491 364.276 Td
+150.491 348.887 Td
 (y) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-155.375 364.276 Td
+155.375 348.887 Td
 (]) Tj
 ET
 BT
 /F0 11 Tf
-147.763 348.887 Td
+147.763 333.498 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-177.397 348.887 Td
+177.397 333.498 Td
 (atoms) Tj
 ET
 BT
 /F0 11 Tf
-206.426 348.887 Td
+206.426 333.498 Td
 (with) Tj
 ET
 BT
 /F0 11 Tf
-228.734 348.887 Td
+228.734 333.498 Td
 (y) Tj
 ET
 BT
 /F0 11 Tf
-236.984 348.887 Td
+236.984 333.498 Td
 (coordinate) Tj
 ET
 BT
 /F0 11 Tf
-286.165 348.887 Td
+286.165 333.498 Td
 (grater) Tj
 ET
 BT
 /F0 11 Tf
-314.567 348.887 Td
+314.567 333.498 Td
 (than) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-336.259 348.887 Td
+336.259 333.498 Td
 (y) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-341.143 348.887 Td
+341.143 333.498 Td
 (.) Tj
 ET
 BT
 /F0 11 Tf
-349.393 348.887 Td
+349.393 333.498 Td
 (Invert) Tj
 ET
 BT
 /F0 11 Tf
-378.411 348.887 Td
+378.411 333.498 Td
 (selection) Tj
 ET
 BT
 /F0 11 Tf
-420.266 348.887 Td
+420.266 333.498 Td
 (to) Tj
 ET
 BT
 /F0 11 Tf
-431.574 348.887 Td
+431.574 333.498 Td
 (get) Tj
 ET
 BT
 /F0 11 Tf
-447.766 348.887 Td
+447.766 333.498 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-463.958 348.887 Td
+463.958 333.498 Td
 (complementary) Tj
 ET
 BT
 /F0 11 Tf
-147.763 333.498 Td
+147.763 318.109 Td
 (set) Tj
 ET
 BT
 /F0 11 Tf
-162.734 333.498 Td
+162.734 318.109 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-174.647 333.498 Td
+174.647 318.109 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
-209.176 333.498 Td
+209.176 318.109 Td
 (This) Tj
 ET
 BT
 /F0 11 Tf
-231.484 333.498 Td
+231.484 318.109 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-241.571 333.498 Td
+241.571 318.109 Td
 (useful) Tj
 ET
 BT
 /F0 11 Tf
-271.205 333.498 Td
+271.205 318.109 Td
 (for) Tj
 ET
 BT
 /F0 11 Tf
-286.781 333.498 Td
+286.781 318.109 Td
 (making) Tj
 ET
 BT
 /F0 11 Tf
-322.531 333.498 Td
+322.531 318.109 Td
 (solvation) Tj
 ET
 BT
 /F0 11 Tf
-365.618 333.498 Td
+365.618 318.109 Td
 (boxes.) Tj
 ET
 BT
 /F0 11 Tf
-399.531 333.498 Td
+399.531 318.109 Td
 (The) Tj
 ET
 BT
 /F0 11 Tf
-419.386 333.498 Td
+419.386 318.109 Td
 (default) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-452.683 333.498 Td
+452.683 318.109 Td
 (y) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-460.317 333.498 Td
+460.317 318.109 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-470.404 333.498 Td
+470.404 318.109 Td
 (0.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 302.720 Td
+109.263 287.331 Td
 (select-z) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-146.212 302.720 Td
+146.212 287.331 Td
 ([) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-149.875 302.720 Td
+149.875 287.331 Td
 (z) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-154.154 302.720 Td
+154.154 287.331 Td
 (]) Tj
 ET
 BT
 /F0 11 Tf
-147.763 287.331 Td
+147.763 271.942 Td
 (Select) Tj
 ET
 BT
 /F0 11 Tf
-177.397 287.331 Td
+177.397 271.942 Td
 (atoms) Tj
 ET
 BT
 /F0 11 Tf
-206.426 287.331 Td
+206.426 271.942 Td
 (with) Tj
 ET
 BT
 /F0 11 Tf
-228.734 287.331 Td
+228.734 271.942 Td
 (z) Tj
 ET
 BT
 /F0 11 Tf
-236.368 287.331 Td
+236.368 271.942 Td
 (coordinate) Tj
 ET
 BT
 /F0 11 Tf
-285.549 287.331 Td
+285.549 271.942 Td
 (grater) Tj
 ET
 BT
 /F0 11 Tf
-313.951 287.331 Td
+313.951 271.942 Td
 (than) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-335.643 287.331 Td
+335.643 271.942 Td
 (z) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-339.922 287.331 Td
+339.922 271.942 Td
 (.) Tj
 ET
 BT
 /F0 11 Tf
-348.172 287.331 Td
+348.172 271.942 Td
 (Invert) Tj
 ET
 BT
 /F0 11 Tf
-377.190 287.331 Td
+377.190 271.942 Td
 (selection) Tj
 ET
 BT
 /F0 11 Tf
-419.045 287.331 Td
+419.045 271.942 Td
 (to) Tj
 ET
 BT
 /F0 11 Tf
-430.353 287.331 Td
+430.353 271.942 Td
 (get) Tj
 ET
 BT
 /F0 11 Tf
-446.545 287.331 Td
+446.545 271.942 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-462.737 287.331 Td
+462.737 271.942 Td
 (complementary) Tj
 ET
 BT
 /F0 11 Tf
-147.763 271.942 Td
+147.763 256.553 Td
 (set) Tj
 ET
 BT
 /F0 11 Tf
-162.734 271.942 Td
+162.734 256.553 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-174.647 271.942 Td
+174.647 256.553 Td
 (atoms.) Tj
 ET
 BT
 /F0 11 Tf
-209.176 271.942 Td
+209.176 256.553 Td
 (This) Tj
 ET
 BT
 /F0 11 Tf
-231.484 271.942 Td
+231.484 256.553 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-241.571 271.942 Td
+241.571 256.553 Td
 (useful) Tj
 ET
 BT
 /F0 11 Tf
-271.205 271.942 Td
+271.205 256.553 Td
 (for) Tj
 ET
 BT
 /F0 11 Tf
-286.781 271.942 Td
+286.781 256.553 Td
 (making) Tj
 ET
 BT
 /F0 11 Tf
-322.531 271.942 Td
+322.531 256.553 Td
 (solvation) Tj
 ET
 BT
 /F0 11 Tf
-365.618 271.942 Td
+365.618 256.553 Td
 (boxes.) Tj
 ET
 BT
 /F0 11 Tf
-399.531 271.942 Td
+399.531 256.553 Td
 (The) Tj
 ET
 BT
 /F0 11 Tf
-419.386 271.942 Td
+419.386 256.553 Td
 (default) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-452.683 271.942 Td
+452.683 256.553 Td
 (z) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-459.712 271.942 Td
+459.712 256.553 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-469.799 271.942 Td
+469.799 256.553 Td
 (0.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 241.164 Td
+109.263 225.775 Td
 (set) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-124.839 241.164 Td
+124.839 225.775 Td
 (setting) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-156.926 241.164 Td
+156.926 225.775 Td
 ([) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-160.589 241.164 Td
+160.589 225.775 Td
 (value) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-184.415 241.164 Td
+184.415 225.775 Td
 (]) Tj
 ET
 BT
 /F0 11 Tf
-147.763 225.775 Td
+147.763 210.386 Td
 (Set) Tj
 ET
 BT
 /F0 11 Tf
-164.571 225.775 Td
+164.571 210.386 Td
 (the) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-180.763 225.775 Td
+180.763 210.386 Td
 (setting) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-212.850 225.775 Td
+212.850 210.386 Td
 (to) Tj
 ET
 BT
 /F0 11 Tf
-224.158 225.775 Td
+224.158 210.386 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-231.792 225.775 Td
+231.792 210.386 Td
 (new) Tj
 ET
 BT
 /F0 11 Tf
-252.868 225.775 Td
+252.868 210.386 Td
 (value.) Tj
 ET
 BT
 /F0 11 Tf
-284.944 225.775 Td
+284.944 210.386 Td
 (Current) Tj
 ET
 BT
 /F0 11 Tf
-321.299 225.775 Td
+321.299 210.386 Td
 (value) Tj
 ET
 BT
 /F0 11 Tf
-347.875 225.775 Td
+347.875 210.386 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-357.962 225.775 Td
+357.962 210.386 Td
 (displayed) Tj
 ET
 BT
 /F0 11 Tf
-402.875 225.775 Td
+402.875 210.386 Td
 (if) Tj
 ET
 BT
 /F0 11 Tf
-412.346 225.775 Td
+412.346 210.386 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-428.538 225.775 Td
+428.538 210.386 Td
 (second) Tj
 ET
 BT
 /F0 11 Tf
-461.835 225.775 Td
+461.835 210.386 Td
 (argument) Tj
 ET
 BT
 /F0 11 Tf
-506.132 225.775 Td
+506.132 210.386 Td
 (is) Tj
 ET
 BT
 /F0 11 Tf
-147.763 210.386 Td
+147.763 194.997 Td
 (omitted.) Tj
 ET
 BT
 /F0 11 Tf
-189.629 210.386 Td
+189.629 194.997 Td
 (See) Tj
 ET
 BT
 /F0 11 Tf
-208.263 210.386 Td
+208.263 194.997 Td
 (the) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-224.455 210.386 Td
+224.455 194.997 Td
 (SETTINGS) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-276.100 210.386 Td
+276.100 194.997 Td
 (section) Tj
 ET
 BT
 /F0 11 Tf
-310.013 210.386 Td
+310.013 194.997 Td
 (for) Tj
 ET
 BT
 /F0 11 Tf
-325.589 210.386 Td
+325.589 194.997 Td
 (the) Tj
 ET
 BT
 /F0 11 Tf
-341.781 210.386 Td
+341.781 194.997 Td
 (list) Tj
 ET
 BT
 /F0 11 Tf
-357.984 210.386 Td
+357.984 194.997 Td
 (of) Tj
 ET
 BT
 /F0 11 Tf
-369.897 210.386 Td
+369.897 194.997 Td
 (available) Tj
 ET
 BT
 /F0 11 Tf
-412.357 210.386 Td
+412.357 194.997 Td
 (options.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 179.608 Td
+109.263 164.219 Td
 (show-all) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-147.763 164.219 Td
+147.763 148.830 Td
 (Show) Tj
 ET
 BT
 /F0 11 Tf
-175.571 164.219 Td
+175.571 148.830 Td
 (all) Tj
 ET
 BT
 /F0 11 Tf
-189.321 164.219 Td
+189.321 148.830 Td
 (hidden) Tj
 ET
 BT
 /F0 11 Tf
-222.013 164.219 Td
+222.013 148.830 Td
 (atoms.) Tj
 ET
 /F1 11 Tf
 BT
 /F1 11 Tf
-109.263 133.441 Td
+109.263 118.052 Td
 (source) Tj
 ET
 /F2 11 Tf
 BT
 /F2 11 Tf
-142.560 133.441 Td
+142.560 118.052 Td
 (path) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-147.763 118.052 Td
+147.763 102.663 Td
 (Execute) Tj
 ET
 BT
 /F0 11 Tf
-185.944 118.052 Td
+185.944 102.663 Td
 (commands) Tj
 ET
 BT
 /F0 11 Tf
-236.357 118.052 Td
+236.357 102.663 Td
 (from) Tj
 ET
 BT
 /F0 11 Tf
-260.491 118.052 Td
+260.491 102.663 Td
 (a) Tj
 ET
 BT
 /F0 11 Tf
-268.125 118.052 Td
+268.125 102.663 Td
 (file.) Tj
 ET
 /F0 11 Tf
@@ -7259,7 +7339,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -7280,7 +7360,7 @@ ET
 endstream
 endobj
 28 0 obj
-11966
+12384
 endobj
 29 0 obj
 <<
@@ -8318,7 +8398,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -9035,7 +9115,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -9841,7 +9921,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -9967,7 +10047,7 @@ ET
 BT
 /F0 11 Tf
 309.419 36.234 Td
-(21,) Tj
+(25,) Tj
 ET
 BT
 /F0 11 Tf
@@ -10025,52 +10105,52 @@ xref
 0 48
 0000000000 65535 f 
 0000000009 00000 n 
-0000092167 00000 n 
+0000092911 00000 n 
 0000000030 00000 n 
 0000000105 00000 n 
 0000000179 00000 n 
 0000000255 00000 n 
 0000000335 00000 n 
-0000012458 00000 n 
-0000012479 00000 n 
-0000012567 00000 n 
-0000012648 00000 n 
-0000024761 00000 n 
-0000024783 00000 n 
-0000024872 00000 n 
-0000024955 00000 n 
-0000037923 00000 n 
-0000037945 00000 n 
-0000038034 00000 n 
-0000038117 00000 n 
-0000046459 00000 n 
-0000046480 00000 n 
-0000046569 00000 n 
-0000046652 00000 n 
-0000054579 00000 n 
-0000054600 00000 n 
-0000054689 00000 n 
-0000054772 00000 n 
-0000066792 00000 n 
-0000066814 00000 n 
-0000066903 00000 n 
-0000066986 00000 n 
-0000076524 00000 n 
-0000076545 00000 n 
-0000076634 00000 n 
-0000076717 00000 n 
-0000083230 00000 n 
-0000083251 00000 n 
-0000083340 00000 n 
-0000083423 00000 n 
-0000090824 00000 n 
-0000090845 00000 n 
-0000090934 00000 n 
-0000091017 00000 n 
-0000091975 00000 n 
-0000091995 00000 n 
-0000092084 00000 n 
-0000092314 00000 n 
+0000012584 00000 n 
+0000012605 00000 n 
+0000012693 00000 n 
+0000012774 00000 n 
+0000025276 00000 n 
+0000025298 00000 n 
+0000025387 00000 n 
+0000025470 00000 n 
+0000038480 00000 n 
+0000038502 00000 n 
+0000038591 00000 n 
+0000038674 00000 n 
+0000047016 00000 n 
+0000047037 00000 n 
+0000047126 00000 n 
+0000047209 00000 n 
+0000054905 00000 n 
+0000054926 00000 n 
+0000055015 00000 n 
+0000055098 00000 n 
+0000067536 00000 n 
+0000067558 00000 n 
+0000067647 00000 n 
+0000067730 00000 n 
+0000077268 00000 n 
+0000077289 00000 n 
+0000077378 00000 n 
+0000077461 00000 n 
+0000083974 00000 n 
+0000083995 00000 n 
+0000084084 00000 n 
+0000084167 00000 n 
+0000091568 00000 n 
+0000091589 00000 n 
+0000091678 00000 n 
+0000091761 00000 n 
+0000092719 00000 n 
+0000092739 00000 n 
+0000092828 00000 n 
+0000093058 00000 n 
 trailer
 <<
 /Size 48
@@ -10078,5 +10158,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-92357
+93101
 %%EOF

@@ -54,8 +54,9 @@ The default key bindings are described below. The following notation is used
 </dl>
 </div>
 <div class="Pp"></div>
-Arrow keys are equivalent to [hjkl] keys. An optional atom selection, (sel), can
-  be used with some commands. See the
+Arrow keys are equivalent to [hjkl] keys. Most commands operate on an atom
+  selection, (sel). An explicit atom index can be specified with number keys
+  [0-9] for such commands. See the
   <a class="Sx" href="#SELECTIONS">SELECTIONS</a> section for more details.
 <div class="Pp"></div>
 <div class="Bl-tag" style="margin-left: 6.00ex;">
@@ -108,19 +109,22 @@ Arrow keys are equivalent to [hjkl] keys. An optional atom selection, (sel), can
     changes.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">r</dt>
   <dd class="It-tag">Start recording of issued commands. Recordings can be
-      replayed by pressing t.</dd>
+      replayed by pressing &#8216;<code class="Li">t</code>&#8217;.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">123s</dt>
-  <dd class="It-tag">Select atom with index 123. Select an unselected atom with
-      lowest index if no index is specified.</dd>
+  <dd class="It-tag">Select an atom with index 123.</dd>
+  <dt class="It-tag" style="margin-left: -10.00ex;">(sel)S-s</dt>
+  <dd class="It-tag">Select all atoms directly connected to the selected
+    atoms.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">t</dt>
-  <dd class="It-tag">Replay last recording. Period key '.' with count can be
-      used to repeat many times after that.</dd>
+  <dd class="It-tag">Replay last recording. Period key
+      &#8216;<code class="Li">.</code>&#8217; with count can be used to repeat
+      many times after that.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">123u</dt>
-  <dd class="It-tag">Unselect atom with index 123. Unselect last selected atom
-      if no index is specified.</dd>
+  <dd class="It-tag">Unselect an atom with index 123. Unselect last selected
+      atom if no index is specified.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">(sel)v</dt>
   <dd class="It-tag">Hide selected atoms. Atoms can be made visible again by
-      pressing z.</dd>
+      pressing &#8216;<code class="Li">z</code>&#8217;.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">(sel)w</dt>
   <dd class="It-tag">Select whole molecules containing selected atoms. 123w
       selects the molecule to which atom 123 belongs.</dd>
@@ -173,18 +177,19 @@ First, an explicit atom index can be provided using number keys [0-9]. This is
 <div class="Pp"></div>
 Atom indices can be explicitly listed on the command line (see the
   <a class="Sx" href="#COMMANDS">COMMANDS</a> section). The indices are
-  separated by a space character. Index ranges can be specified using colon ':'.
-  For example, 6:8 specifies atoms with indices 6, 7, 8. Negative indices are
-  used to count backwards starting from the last index, i.e., -1 is the last
-  atom. An asterisk '*' can be used to specify all atoms.
+  separated by a space character. Index ranges can be specified using colon
+  &#8216;<code class="Li">:</code>&#8217;. For example, 6:8 specifies atoms with
+  indices 6, 7, 8. Negative indices are used to count backwards starting from
+  the last index, i.e., -1 is the last atom. An asterisk
+  &#8216;<code class="Li">*</code>&#8217; can be used to specify all atoms.
 <div class="Pp"></div>
 Finally, if no explicit index is specified and no command-line arguments are
   listed, selected atoms from the current tab are used.
 <h1 class="Sh" id="COMMANDS">COMMANDS</h1>
 Below is the list of available commands. Command mode is started by pressing the
-  colon key ':'. Most of the commands are bound to a key for convenience (see
-  the <a class="Sx" href="#KEY_BINDINGS">KEY BINDINGS</a> section). Multiple
-  commands can be separated by semicolon.
+  colon key &#8216;<code class="Li">:</code>&#8217;. Most of the commands are
+  bound to a key for convenience (see the <a class="Sx" href="#KEY_BINDINGS">KEY
+  BINDINGS</a> section). Multiple commands can be separated by a semicolon.
 <div class="Bl-tag" style="margin-left: 6.00ex;">
 <dl class="Bl-tag" style="margin-left: 6.00ex;">
   <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
@@ -368,9 +373,13 @@ Below is the list of available commands. Command mode is started by pressing the
     [<span class="Op"><i class="Ar">sel</i></span>]</dt>
   <dd class="It-tag">
     <div class="D1">(alias: <b class="Ic">s</b>)</div>
-    Add atoms specified by <i class="Ar">sel</i> to the current selection.
-      Select an unselected atom with lowest index if the argument is
-    omitted.</dd>
+    Add atoms specified by <i class="Ar">sel</i> to the current selection.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-connected</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Select all atoms directly connected to atoms in selection
+      <i class="Ar">sel</i>.</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
   <dd class="It-tag">&#160;</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">select-element</b>
@@ -632,7 +641,7 @@ The following settings control various aspects of <b class="Nm">vimol</b>. They
 <table class="foot">
   <tbody>
     <tr>
-      <td class="foot-date">February 21, 2017</td>
+      <td class="foot-date">February 25, 2017</td>
       <td class="foot-os">OpenBSD 6.0</td>
     </tr>
   </tbody>
