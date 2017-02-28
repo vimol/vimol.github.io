@@ -9970,37 +9970,196 @@ stream
 BT
 /F1 11 Tf
 68.013 702.834 Td
-(AUTHORS) Tj
+(FILES) Tj
+ET
+/F2 11 Tf
+BT
+/F2 11 Tf
+81.763 687.445 Td
+(~/.vimolrc) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+120.263 672.056 Td
+(Commands) Tj
 ET
 BT
+/F0 11 Tf
+173.129 672.056 Td
+(from) Tj
+ET
+BT
+/F0 11 Tf
+197.263 672.056 Td
+(this) Tj
+ET
+BT
+/F0 11 Tf
+215.908 672.056 Td
+(file) Tj
+ET
+BT
+/F0 11 Tf
+233.321 672.056 Td
+(will) Tj
+ET
+BT
+/F0 11 Tf
+253.187 672.056 Td
+(be) Tj
+ET
+BT
+/F0 11 Tf
+266.321 672.056 Td
+(executed) Tj
+ET
+BT
+/F0 11 Tf
+308.165 672.056 Td
+(on) Tj
+ET
+BT
+/F0 11 Tf
+321.915 672.056 Td
+(each) Tj
+ET
 /F1 11 Tf
-81.763 687.445 Td
+BT
+/F1 11 Tf
+344.817 672.056 Td
 (vimol) Tj
 ET
 /F0 11 Tf
 BT
 /F0 11 Tf
-110.792 687.445 Td
+373.846 672.056 Td
+(start.) Tj
+ET
+BT
+/F0 11 Tf
+401.038 672.056 Td
+(It) Tj
+ET
+BT
+/F0 11 Tf
+410.509 672.056 Td
+(can) Tj
+ET
+BT
+/F0 11 Tf
+428.527 672.056 Td
+(be) Tj
+ET
+BT
+/F0 11 Tf
+441.661 672.056 Td
+(used) Tj
+ET
+BT
+/F0 11 Tf
+464.574 672.056 Td
+(to) Tj
+ET
+BT
+/F0 11 Tf
+475.882 672.056 Td
+(customize) Tj
+ET
+BT
+/F0 11 Tf
+120.263 656.667 Td
+(various) Tj
+ET
+BT
+/F0 11 Tf
+155.397 656.667 Td
+(settings,) Tj
+ET
+BT
+/F0 11 Tf
+194.513 656.667 Td
+(such) Tj
+ET
+BT
+/F0 11 Tf
+217.426 656.667 Td
+(as) Tj
+ET
+BT
+/F0 11 Tf
+229.339 656.667 Td
+(background) Tj
+ET
+BT
+/F0 11 Tf
+284.020 656.667 Td
+(color.) Tj
+ET
+/F2 11 Tf
+BT
+/F2 11 Tf
+81.763 641.278 Td
+(~/.vimolhistory) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+120.263 625.889 Td
+(Stores) Tj
+ET
+/F1 11 Tf
+BT
+/F1 11 Tf
+150.513 625.889 Td
+(vimol) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+179.542 625.889 Td
+(command-line) Tj
+ET
+BT
+/F0 11 Tf
+245.839 625.889 Td
+(history.) Tj
+ET
+/F1 11 Tf
+BT
+/F1 11 Tf
+68.013 595.111 Td
+(AUTHORS) Tj
+ET
+BT
+/F1 11 Tf
+81.763 579.722 Td
+(vimol) Tj
+ET
+/F0 11 Tf
+BT
+/F0 11 Tf
+110.792 579.722 Td
 (was) Tj
 ET
 BT
 /F0 11 Tf
-130.647 687.445 Td
+130.647 579.722 Td
 (developed) Tj
 ET
 BT
 /F0 11 Tf
-178.607 687.445 Td
+178.607 579.722 Td
 (by) Tj
 ET
 BT
 /F0 11 Tf
-192.357 687.445 Td
+192.357 579.722 Td
 (Ilya) Tj
 ET
 BT
 /F0 11 Tf
-212.212 687.445 Td
+212.212 579.722 Td
 (Kaliman) Tj
 ET
 /F0 11 Tf
@@ -10068,7 +10227,7 @@ ET
 endstream
 endobj
 44 0 obj
-904
+2393
 endobj
 45 0 obj
 <<
@@ -10105,7 +10264,7 @@ xref
 0 48
 0000000000 65535 f 
 0000000009 00000 n 
-0000092911 00000 n 
+0000094401 00000 n 
 0000000030 00000 n 
 0000000105 00000 n 
 0000000179 00000 n 
@@ -10147,10 +10306,10 @@ xref
 0000091589 00000 n 
 0000091678 00000 n 
 0000091761 00000 n 
-0000092719 00000 n 
-0000092739 00000 n 
-0000092828 00000 n 
-0000093058 00000 n 
+0000094208 00000 n 
+0000094229 00000 n 
+0000094318 00000 n 
+0000094548 00000 n 
 trailer
 <<
 /Size 48
@@ -10158,5 +10317,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-93101
+94591
 %%EOF
