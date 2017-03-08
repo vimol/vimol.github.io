@@ -55,8 +55,9 @@ The default key bindings are described below. The following notation is used
 </div>
 <div class="Pp"></div>
 Arrow keys are equivalent to [hjkl] keys. Most commands operate on an atom
-  selection, (sel). An explicit atom index can be specified with number keys
-  [0-9] for such commands. See the
+  selection, (sel). For these, an explicit atom index can be specified with
+  number keys [0-9]. Atom indices can be displayed by pressing
+  &#8216;<code class="Li">i</code>&#8217;. See the
   <a class="Sx" href="#SELECTIONS">SELECTIONS</a> section for more details.
 <div class="Pp"></div>
 <div class="Bl-tag" style="margin-left: 6.00ex;">
@@ -175,12 +176,12 @@ First, an explicit atom index can be provided using number keys [0-9]. This is
   useful with key combinations. For example, 123d deletes an atom with index
   123.
 <div class="Pp"></div>
-Atom indices can be explicitly listed on the command line (see the
-  <a class="Sx" href="#COMMANDS">COMMANDS</a> section). The indices are
-  separated by a space character. Index ranges can be specified using colon
-  &#8216;<code class="Li">:</code>&#8217;. For example, 6:8 specifies atoms with
-  indices 6, 7, 8. Negative indices are used to count backwards starting from
-  the last index, i.e., -1 is the last atom. An asterisk
+In the command-line mode atom indices can be explicitly listed as arguments to a
+  command (see the <a class="Sx" href="#COMMANDS">COMMANDS</a> section). The
+  indices should be separated by a space character. Index ranges can be
+  specified using colon &#8216;<code class="Li">:</code>&#8217;. For example,
+  6:8 specifies atoms with indices 6, 7, 8. Negative indices are used to count
+  backwards starting from the last index, i.e., -1 is the last atom. An asterisk
   &#8216;<code class="Li">*</code>&#8217; can be used to specify all atoms.
 <div class="Pp"></div>
 Finally, if no explicit index is specified and no command-line arguments are
