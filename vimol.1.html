@@ -124,8 +124,7 @@ Arrow keys are equivalent to [hjkl] keys. Most commands operate on an atom
   <dd class="It-tag">Unselect an atom with index 123. Unselect last selected
       atom if no index is specified.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">(sel)v</dt>
-  <dd class="It-tag">Hide selected atoms. Atoms can be made visible again by
-      pressing &#8216;<code class="Li">z</code>&#8217;.</dd>
+  <dd class="It-tag">Hide/show atoms.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">(sel)w</dt>
   <dd class="It-tag">Select whole molecules containing selected atoms. 123w
       selects the molecule to which atom 123 belongs.</dd>
@@ -135,8 +134,6 @@ Arrow keys are equivalent to [hjkl] keys. Most commands operate on an atom
   <dd class="It-tag">Cut (copy and delete) selected atoms.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">(sel)y or (sel)C-c</dt>
   <dd class="It-tag">Copy selected atoms.</dd>
-  <dt class="It-tag" style="margin-left: -10.00ex;">z</dt>
-  <dd class="It-tag">Show all hidden atoms.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">C-a</dt>
   <dd class="It-tag">Select all atoms.</dd>
   <dt class="It-tag" style="margin-left: -10.00ex;">C-[hjklfg]</dt>
@@ -264,11 +261,6 @@ Below is the list of available commands. Command mode is started by pressing the
   <dd class="It-tag">&#160;</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">fullscreen</b></dt>
   <dd class="It-tag">Toggle full screen mode.</dd>
-  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
-  <dd class="It-tag">&#160;</dd>
-  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">hide-selection</b>
-    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
-  <dd class="It-tag">Hide atoms specified by <i class="Ar">sel</i>.</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
   <dd class="It-tag">&#160;</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">invert-selection</b></dt>
@@ -448,10 +440,6 @@ select-element H N
       available options.</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
   <dd class="It-tag">&#160;</dd>
-  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">show-all</b></dt>
-  <dd class="It-tag">Show all hidden atoms.</dd>
-  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
-  <dd class="It-tag">&#160;</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">source</b>
     <i class="Ar">path</i></dt>
   <dd class="It-tag">Execute commands from a file.</dd>
@@ -462,6 +450,12 @@ select-element H N
   <dd class="It-tag">Toggle a boolean setting. See the
       <a class="Sx" href="#SETTINGS">SETTINGS</a> section for the list of
       available options.</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
+  <dd class="It-tag">&#160;</dd>
+  <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">toggle-atoms</b>
+    [<span class="Op"><i class="Ar">sel</i></span>]</dt>
+  <dd class="It-tag">Hide atoms specified by <i class="Ar">sel</i>. If no atoms
+      are specified, makes all hidden atoms visible again.</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;">&#160;</dt>
   <dd class="It-tag">&#160;</dd>
   <dt class="It-tag" style="margin-left: -6.00ex;"><b class="Ic">undo</b></dt>
